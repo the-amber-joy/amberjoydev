@@ -1,0 +1,76 @@
+body {
+	background-color:rgb(0,0,0);
+	background-image:url(http://www.zingerbugimages.com/backgrounds/tan_bamboo_wallpaper_tileable.jpg);
+	background-position:top left;
+	background-repeat:repeat;
+	background-attachment:fixed;
+	font-family "Palatino Linotype", "Book Antiqua", Palatino, serif;
+	font-size: 20px;
+	width: 900px;
+	margin: auto auto 100px auto;
+	padding: auto;
+}
+
+header {
+	text-align: center;
+	border-bottom-style: double;
+	border-bottom-color: #31642f;
+    border-width: 5px;
+    margin-left: 150px;
+    margin-right: 150px;
+}
+
+#contact-me {
+	margin: 20px 100px 20px 100px;
+	text-align: center;
+}
+
+h1 {
+	text-shadow: 2px 2px #edf6ed;
+	font-variant: small-caps;
+	font-size: 48px;
+	margin-bottom: -10px;
+}
+
+h2 {
+	text-shadow: 2px 2px #edf6ed;
+	font-variant: small-caps;
+	font-size: 28px;
+	margin-left: 20px;
+	margin-right: 20px;
+	margin-bottom: -5px;
+	border-bottom-style: solid;
+    border-width: 1px;
+}
+
+
+h3 {
+	font-size: 24px;
+	margin-left: 30px; 
+	margin-bottom: -15px;
+}
+
+h4 {
+	margin-left: 30px; 
+	margin-bottom: -15px;
+}
+
+.job-date {
+	font-style: italic;
+	float: right;
+	margin-right: 50px;
+}
+
+ul {
+	margin-left: 40px;
+}
+
+footer {
+	text-align: center;
+	border-top-style: double;
+	border-top-color: #31642f;
+    border-width: 5px;
+    margin-left: 150px;
+    margin-right: 150px;
+    font-style: italic;
+}
