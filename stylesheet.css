@@ -1,76 +1,121 @@
+html, body, header, section, footer, h1, h2, h3, h4, p, ol, ul, li, a {
+  padding: 0;
+  border: 0;
+  margin: 0;
+  font-size: 100%;
+  font: inherit;
+  list-style: none;
+  text-decoration: none;
+}
+
 body {
-	background-color:rgb(0,0,0);
-	background-image:url(http://www.zingerbugimages.com/backgrounds/tan_bamboo_wallpaper_tileable.jpg);
-	background-position:top left;
-	background-repeat:repeat;
-	background-attachment:fixed;
-	font-family "Palatino Linotype", "Book Antiqua", Palatino, serif;
-	font-size: 20px;
+	background-color: #fdeed1;
+	background: url(http://www.zingerbugimages.com/backgrounds/tan_bamboo_wallpaper_tileable.jpg) top left repeat;
 	width: 900px;
-	margin: auto auto 100px auto;
-	padding: auto;
+	margin: 20px auto 100px auto;
+	font-family: Palatino, Helveltica, serif;
+	color: #493e3b;
 }
 
 header {
 	text-align: center;
-	border-bottom-style: double;
-	border-bottom-color: #31642f;
-    border-width: 5px;
-    margin-left: 150px;
-    margin-right: 150px;
+	background: linear-gradient(to bottom, #493e3b, #70618c); 
+    margin: auto 150px 30px 150px;
+    box-shadow: 5px 10px 20px #220901;
+    border-radius: 50px;
 }
 
-#contact-me {
-	margin: 20px 100px 20px 100px;
+header p {
+	color: #f1e7d8;
+	text-shadow: .5px .5px #d3b17d;
+	padding-bottom: 10px;
+	font-size: 18px;
+}
+
+section {
+	background: linear-gradient(to bottom, #f2be83, #fad8bb);
+    box-shadow: 5px 10px 20px #220901;
+    border-radius: 10px;
+    padding: 20px;
+    margin: 20px;
+}
+
+footer {
+	background: linear-gradient(to bottom, #86aba5, #4d4b3a);
+	box-shadow: 5px 10px 20px #220901;
+    border-radius: 10px;
+    padding: 5px;
 	text-align: center;
+    margin-left: 250px;
+    margin-right: 250px;
+    font-style: italic;
 }
 
-h1 {
-	text-shadow: 2px 2px #edf6ed;
-	font-variant: small-caps;
-	font-size: 48px;
-	margin-bottom: -10px;
+footer p {
+    color: #f1e7d8;
 }
 
-h2 {
-	text-shadow: 2px 2px #edf6ed;
-	font-variant: small-caps;
-	font-size: 28px;
-	margin-left: 20px;
-	margin-right: 20px;
-	margin-bottom: -5px;
-	border-bottom-style: solid;
-    border-width: 1px;
+a {
+	font-size: 22px;
+	color: #9ebbb7;
+	text-shadow: none;
 }
 
-
-h3 {
-	font-size: 24px;
-	margin-left: 30px; 
-	margin-bottom: -15px;
-}
-
-h4 {
-	margin-left: 50px; 
-	margin-bottom: -15px;
+a:hover { 
+  color: #f2be83;
 }
 
 .job-date {
 	font-style: italic;
 	float: right;
-	margin-right: 50px;
+	margin-right: 20px;
+}
+
+h1 {
+	font-variant: small-caps;
+	font-size: 52px;
+	font-weight: bold;
+	color: #f1e7d8;
+	text-shadow: 1px 1px #d3b17d;
+	padding-top: 10px;
+}
+
+h2 {
+	font-variant: small-caps;
+	font-size: 30px;
+	font-weight: bold;
+	margin-left: 10px;
+	margin-bottom: 5px;
+}
+
+h3 {
+	font-size: 24px;
+	margin-left: 20px; 
+	margin-bottom: 10px;
+	border-bottom: 1px;
+}
+
+h4 {
+	font-size: 20px;
+	font-style: italic;
+	margin-left: 40px; 
+	margin-bottom: 5px;
 }
 
 ul {
 	margin-left: 40px;
+	padding-bottom: 20px;
 }
 
-footer {
-	text-align: center;
-	border-top-style: double;
-	border-top-color: #31642f;
-    border-width: 5px;
-    margin-left: 150px;
-    margin-right: 150px;
-    font-style: italic;
+li:before { 
+    content: "";
+    border-color: transparent #493e3b;
+    border-style: solid;
+    border-width: 0.35em 0 0.35em 0.45em;
+    display: block;
+    height: 0;
+    width: 0;
+    left: -1em;
+    top: 0.9em;
+    position: relative;
 }
