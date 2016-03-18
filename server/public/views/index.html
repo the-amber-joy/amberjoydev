@@ -1,104 +1,25 @@
-<!DOCTYPE HTML>
-<html>
-
+<!DOCTYPE html>
+<html lang="en" ng-app="MyApp">
 <head>
-  <meta name="keywords" content="resume, resume challenge, application, prime digital academy, amber balch, amber joy balch, amber joy, wow, such professional, very resume, impress">
-  <meta charset="UTF-8">
-  <title>Amber Joy - Resume</title>
-  <link rel="stylesheet" href="../assets/styles/stylesheet.css">
+    <meta charset="UTF-8">
+    <title>Amber Joy</title>
+    <link href="../vendors/bootstrap/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="../assets/styles/stylesheet.css">
+    <script src="../vendors/angular/angular.min.js"></script>
+    <script src="../vendors/angular-route/angular-route.min.js"></script>
+    <script src="../assets/scripts/client.min.js"></script>
+    <base href="/">
 </head>
-
 <body>
 
-  <header>
-    <h1>Amber Joy</h1>
-      <p>15768 27th Avenue North<br>Plymouth, Minnesota 55447<br>651-247-3828<br></p>
-        <p><a href="mailto:amber.joy@gmail.com" subject="Resume">amber.joy@gmail.com</a></p>
-  </header>
+<ul class="nav nav-tabs">
+    <li><a href="/">Main</a></li>
+    <li><a href="/resume">Resume</a></li>
+    <li><a href="/profile">Profile</a></li>
+    <li><a href="/contact">Contact</a></li>
+</ul>
 
-  <section>
-    <h2>Employment</h2>
-    <h3>Symantec Corporation (formerly Veritas Software)</h3>
-    <h4>Associate Lab Analyst<div class="job-date">2009 - 2011</div></h4>
-    <ul>
-      <li>Planned and tracked quarterly $1.5-million-dollar capital budget for NetBackup Engineering department in Roseville, MN.</li>
-      <li>Negotiated with hardware and software vendors to obtain reduced pricing, and secure quotes for ordering.</li>
-      <li>Created hardware/software orders; planned lab deployment of all inbound hardware each quarter.</li>
-    </ul>
-
-
-      <h4>Administrative Specialist
-            <div class="job-date">2005 - 2009</div>
-          </h4>
-      <ul>
-        <li>Provided calendar, scheduling, and administrative support for Senior Director of NetBackup Development, and for approximately 25 other departmental managers as needed.</li>
-        <li>Arranged domestic and international travel for management team and development engineers.</li>
-        <li>Took notes for distribution at weekly departmental manager meetings.</li>
-        <li>Collected project data from management team to compile into consolidated spreadsheets and PowerPoint presentations for Senior Director.</li>
-        <li>Provided team support for Microsoft SharePoint Server; including adding/removing users; updating access levels; and creation of sites, document libraries, and surveys.</li>
-      </ul>
-    </div>
-
-    <div>
-      <h3>Cushman &amp; Wakefield (Veritas Software Campus)</h3>
-      <h4>Receptionist / Administrative Assistant
-            <div class="job-date">2004 - 2005</div>
-          </h4>
-      <ul>
-        <li>Operated multi-line switchboard supporting approximately 500 employees.</li>
-        <li>Issued and tracked Security Badges for all site visitors.</li>
-        <li>Maintained monthly office supply inventory; ordered &amp; stocked needed items.</li>
-        <li>Responsible for maintaining all local electronic employee online directories.</li>
-        <li>Designed and maintained internal web page for weekly office cafeteria menu; designed and printed daily menus to be posted in the café.</li>
-      </ul>
-    </div>
-
-    <div>
-      <h3>Swanson Health Products</h3>
-      <h4>Inbound Order Representative
-            <div class="job-date">2004 </div>
-          </h4>
-      <ul>
-        <li>Processed inbound phone orders for vitamins and supplements.</li>
-        <li>Answered questions and solved problems for customers regarding product information, shipments, services, and order status.</li>
-      </ul>
-    </div>
-
-    <div>
-      <h3>Great Lakes Archaeological Research Center</h3>
-      <h4>Field Technician
-            <div class="job-date">2003</div>
-          </h4>
-      <ul>
-        <li>Measuring out units to be excavated, digging, and screening on Phase III site excavation.</li>
-        <li>Documenting soil profiles and cataloging artifacts removed.</li>
-      </ul>
-    </div>
-
-  </div>
-
-
-
-
-
-  </section>
-
-  <section>
-    <h2>Education</h2>
-    <h3>Minnesota State University Moorhead</h3>
-    <h4>BA: Anthropology; Minor: Speech Communications
-        <div class="job-date">Cum Laude, 2003</div>
-      </h4>
-    <ul>
-      <li>Completed Honors Program</li>
-      <li>Achieved Dean's List 6 semesters</li>
-    </ul>
-  </section>
-
-  <footer>
-    <p>References available upon request.</p>
-  </footer>
+<div ng-view></div>
 
 </body>
-
 </html>

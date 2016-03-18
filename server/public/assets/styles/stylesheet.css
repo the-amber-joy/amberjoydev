@@ -10,10 +10,11 @@ html, body, header, section, footer, h1, h2, h3, h4, p, ol, ul, li, a {
 
 body {
 	background-color: #fdeed1;
-	background: url(../images/bloodred-sky.jpg);
+	background: url(../images/bloodred-sky.jpg) no-repeat;
 	background-size: 100% 100%;
-	background-repeat: no-repeat;
-	width: 900px;
+	width: 75%;
+    min-width: 900px;
+    min-height: 900px;
 	margin: 20px auto 100px auto;
 	font-family: Palatino, Helveltica, serif;
 	color: #493e3b;
@@ -109,15 +110,15 @@ ul {
 	padding-bottom: 20px;
 }
 
-li:before { 
-    content: "";
-    border-color: transparent #493e3b;
-    border-style: solid;
-    border-width: 0.35em 0 0.35em 0.45em;
-    display: block;
-    height: 0;
-    width: 0;
-    left: -1em;
-    top: 0.9em;
-    position: relative;
-}
+/*li:before { */
+    /*content: "";*/
+    /*border-color: transparent #493e3b;*/
+    /*border-style: solid;*/
+    /*border-width: 0.35em 0 0.35em 0.45em;*/
+    /*display: block;*/
+    /*height: 0;*/
+    /*width: 0;*/
+    /*left: -1em;*/
+    /*top: 0.9em;*/
+    /*position: relative;*/
+/*}*/
