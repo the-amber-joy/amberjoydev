@@ -10,7 +10,9 @@ html, body, header, section, footer, h1, h2, h3, h4, p, ol, ul, li, a {
 
 body {
 	background-color: #fdeed1;
-	background: url(http://www.zingerbugimages.com/backgrounds/tan_bamboo_wallpaper_tileable.jpg) top left repeat;
+	background: url(../images/bloodred-sky.jpg);
+	background-size: 100% 100%;
+	background-repeat: no-repeat;
 	width: 900px;
 	margin: 20px auto 100px auto;
 	font-family: Palatino, Helveltica, serif;
