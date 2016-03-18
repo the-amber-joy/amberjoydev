@@ -1,0 +1,24 @@
+{
+  "name": "the-amber-joy.github.io",
+  "version": "1.0.0",
+  "description": "Landing Page for Amber Joy",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server/server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/the-amber-joy/the-amber-joy.github.io.git"
+  },
+  "author": "Amber Joy",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/the-amber-joy/the-amber-joy.github.io/issues"
+  },
+  "homepage": "https://the-amber-joy.github.io",
+  "dependencies": {
+    "express": "^4.13.4",
+    "path": "^0.12.7"
+  }
+}
