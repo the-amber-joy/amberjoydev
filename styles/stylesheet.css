@@ -10,7 +10,7 @@ html, body, header, section, footer, h1, h2, h3, h4, p, ol, ul, li, a {
 
 body {
 	background-color: #fdeed1;
-	background: url(../images/bloodred-sky.jpg) no-repeat;
+	background: url(../../../../images/bloodred-sky.jpg) no-repeat;
 	background-size: 100% 100%;
 	width: 75%;
     min-width: 900px;
