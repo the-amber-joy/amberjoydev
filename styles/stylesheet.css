@@ -10,11 +10,12 @@
 
 body {
 	background-color: #fdeed1;
-	background: url(../images/purple_gradient.jpg) no-repeat;
-	background-size: 100% 100%;
+	/*background: url(../images/purple_gradient.jpg) no-repeat;*/
+    background: url(http://www.zingerbugimages.com/backgrounds/tan_bamboo_wallpaper_tileable.jpg) top left repeat;
+    /*background-size: 100% 100%;*/
 	width: 75%;
     min-width: 900px;
-    min-height: 900px;
+    min-height: 1200px;
 	margin: 20px auto 100px auto;
 	font-family: Palatino, Helveltica, serif;
 	color: #493e3b;
@@ -60,7 +61,7 @@ footer p {
 
 a {
 	font-size: 22px;
-	color: #9ebbb7;
+	color: #7e9592;
 	text-shadow: none;
 }
 
@@ -78,48 +79,36 @@ h1 {
 	font-variant: small-caps;
 	font-size: 52px;
 	font-weight: bold;
-	color: #f1e7d8;
+	color: #4d4b3a;
 	text-shadow: 1px 1px #d3b17d;
 	padding-top: 10px;
 }
 
-h2 {
-	font-variant: small-caps;
-	font-size: 30px;
-	font-weight: bold;
-	margin-left: 10px;
-	margin-bottom: 5px;
+.nav-tabs {
+    border-bottom: 1px solid #7e9592;
 }
 
-h3 {
-	font-size: 24px;
-	margin-left: 20px; 
-	margin-bottom: 10px;
-	border-bottom: 1px;
+.nav-tabs > li {
+    float: left;
+    margin-bottom: -1px;
 }
 
-h4 {
-	font-size: 20px;
-	font-style: italic;
-	margin-left: 40px; 
-	margin-bottom: 5px;
+.nav-tabs > li > a {
+    margin-right: 2px;
+    line-height: 1.42857143;
+    border: 1px solid transparent;
+    border-radius: 4px 4px 0 0;
 }
 
-/*ul {*/
-	/*margin-left: 40px;*/
-	/*padding-bottom: 20px;*/
-/*}*/
+.nav-tabs > li > a:hover {
+    border-color: #eee #eee #7e9592;
+}
 
-
-/*li:before { */
-    /*content: "";*/
-    /*border-color: transparent #493e3b;*/
-    /*border-style: solid;*/
-    /*border-width: 0.35em 0 0.35em 0.45em;*/
-    /*display: block;*/
-    /*height: 0;*/
-    /*width: 0;*/
-    /*left: -1em;*/
-    /*top: 0.9em;*/
-    /*position: relative;*/
-/*}*/
+.nav-tabs > li.active > a,
+.nav-tabs > li.active > a:hover,
+.nav-tabs > li.active > a:focus {
+    color: #4d4b3a;
+    background-color: #7e9592;
+    border: 1px solid #7e9592;
+    border-bottom-color: transparent;
+}
