@@ -14,11 +14,11 @@ $(document).ready(function() {
 
     $('.nav-links').on('mouseover', 'li', function() {
             var thisClass = $(this).attr('class');
-            $(this).parent().parent().find('#'+thisClass).show().siblings().hide();
+            $(this).parent().parent().parent().find('#'+thisClass).show().siblings().hide();
         })
         .on('mouseout', 'li', function() {
         var thisClass = $(this).attr('class');
-            $(this).parent().parent().find('#contact').show();
-            $(this).parent().parent().find('#'+thisClass).hide();
+            $(this).parent().parent().parent().find('#contact').show();
+            $(this).parent().parent().parent().find('#'+thisClass).hide();
     })
 });
