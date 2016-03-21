@@ -53,6 +53,9 @@ h1 {
 .nav-links {
     float: right;
 }
+.nav-links .words {
+    vertical-align: bottom;
+}
 .words p {
     padding-bottom: 5px;
     display: none;
@@ -63,6 +66,7 @@ h1 {
     display: block;
 }
 .nav-links li {
+    vertical-align: top;
     -webkit-transition: all .4s ease; /* Safari and Chrome */
     -moz-transition: all .4s ease; /* Firefox */
     -ms-transition: all .4s ease; /* IE 9 */
