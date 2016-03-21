@@ -51,12 +51,11 @@ h1 {
     margin: 15px 0 0 0;
 }
 .nav-links {
+  height:inherit;
     float: right;
 }
-.nav-links .words {
-    vertical-align: bottom;
-}
 .words p {
+  vertical-align: bottom;
     padding-bottom: 5px;
     display: none;
     color: #fdeed1;
@@ -65,7 +64,7 @@ h1 {
 #contact {
     display: block;
 }
-.nav-links li {
+.icons {
     vertical-align: top;
     -webkit-transition: all .4s ease; /* Safari and Chrome */
     -moz-transition: all .4s ease; /* Firefox */
