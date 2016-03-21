@@ -50,6 +50,13 @@ h1 {
 .navbar-inverse .nav-links {
     float: right;
 }
+.nav-links li {
+    -webkit-transition: all .3s ease; /* Safari and Chrome */
+    -moz-transition: all .3s ease; /* Firefox */
+    -ms-transition: all .3s ease; /* IE 9 */
+    -o-transition: all .3s ease; /* Opera */
+    transition: all .3s ease;
+}
 .nav-links li:hover {
     -webkit-transform:scale(1.25); /* Safari and Chrome */
     -moz-transform:scale(1.25); /* Firefox */
