@@ -1,21 +1,93 @@
 <!DOCTYPE html>
-<html lang="en" ng-app="myApp">
+<html lang="en">
 <head>
     <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Amber Joy</title>
-    <link href="vendors/bootstrap/dist/css/bootstrap.min.css" rel="stylesheet">
-    <link rel="stylesheet" href="styles/stylesheet.css">
+    <!--scripts-->
+    <script src="assets/vendors/jquery/jquery.min.js"></script>
+    <script src="assets/vendors/bootstrap/js/tooltip.js"></script>
+    <script src="assets/vendors/bootstrap/js/popover.js"></script>
+    <script src="assets/scripts/app.js"></script>
+    <!--styles-->
+    <link href="assets/vendors/bootstrap/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="assets/styles/animate.css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="assets/styles/stylesheet.css">
 </head>
-<body ng-controller="myController">
+<body>
 
-<ul class="nav nav-tabs">
-    <li class="active"><a href="index.html">Main</a></li>
-    <li><a href="profile.html">Profile</a></li>
-    <li><a href="resume.html">Resume</a></li>
-    <li><a href="contact.html">Contact</a></li>
-</ul>
 
-<h1>Hi, I'm Amber.</h1>
+<nav class="navbar navbar-inverse navbar-fixed-top affix-top">
+    <div class="container-fluid">
+        <div class="navbar-header">
+            <a class="navbar-brand">Amber Joy</a>
+        </div>
+        <div>
+            <ul class="nav navbar-nav">
+                <li><a href="#aboutMe">About Me</a></li>
+                <li><a href="#resume">Resume</a></li>
+            </ul>
+        </div>
+        <div class="nav-links">
+                <ul class="nav navbar-nav">
+                    <li><a href="mailto:amber.joy@gmail.com" target="_blank" data-toggle="popover" data-content="Email Me">
+                        <span class="fa fa-envelope"></span>
+                    </a></li>
+                    <li><a href="skype:the.amber.joy?userinfo" data-toggle="popover" data-content="My Skype Profile">
+                        <span class="fa fa-skype"></span>
+                    </a></li>
+                    <li><a href="https://github.com/the-amber-joy" target="_blank" data-toggle="popover" data-content="My GitHub Profile">
+                        <span class="fa fa-github"></span>
+                    </a></li>
+                    <li><a href="https://www.linkedin.com/in/theamberjoy" target="_blank" data-toggle="popover" data-content="My LinkedIn Profile">
+                        <span class="fa fa-linkedin"></span>
+                    </a></li>
+                </ul>
+        </div>
+    </div>
+</nav>
+
+<!--<div id="main" class="myLinks">-->
+    <!--&lt;!&ndash;<h1>Contact</h1>&ndash;&gt;-->
+    <!--<div class="col-lg-3 col-md-4 col-sm-6 col-xs-12">-->
+        <!--<div class="hovereffect">-->
+            <!--<img class="img-responsive" src="assets/images/640x480.png" alt="">-->
+            <!--<div class="overlay">-->
+                <!--&lt;!&ndash;<h2>Links:</h2>&ndash;&gt;-->
+                <!--<p class="icon-links">-->
+                    <!--<a href="mailto:amber.joy@gmail.com" target="_blank">-->
+                        <!--<span class="fa fa-envelope"></span>-->
+                    <!--</a>-->
+                    <!--<a href="skype:the.amber.joy?userinfo">-->
+                        <!--<span class="fa fa-skype"></span>-->
+                    <!--</a>-->
+                    <!--<a href="https://github.com/the-amber-joy" target="_blank">-->
+                        <!--<span class="fa fa-github"></span>-->
+                    <!--</a>-->
+                    <!--<a href="https://www.linkedin.com/in/theamberjoy" target="_blank">-->
+                        <!--<span class="fa fa-linkedin"></span>-->
+                    <!--</a>-->
+                <!--</p>-->
+            <!--</div>-->
+        <!--</div>-->
+    <!--</div>-->
+<!--</div>-->
+
+<div>
+    <div id="aboutMe" class="section">
+        <h1>About Me</h1>
+        <p>some things about me would go here. I am going to say some things about me</p>
+        <p>Do yuo find me interesting? Do youw ant to hire me?</p>
+    </div>
+
+    <div id="resume" class="section">
+        <h1>Resume</h1>
+        <p>some things about me would go here. I am going to say some things about me</p>
+        <p>Do yuo find me interesting? Do youw ant to hire me?</p>
+    </div>
+</div>
+
 
 </body>
 </html>
