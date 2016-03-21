@@ -47,14 +47,26 @@ h1 {
     color: #7e9592;
     background-color: transparent;
 }
-.navbar-inverse .nav-links {
+.site-nav p {
+    margin: 15px 0 0 0;
+}
+.nav-links {
     float: right;
 }
+.words p {
+    padding-bottom: 5px;
+    display: none;
+    color: #fdeed1;
+    text-align: center;
+}
+#contact {
+    display: block;
+}
 .nav-links li {
-    /*-webkit-transition: all .4s ease; !* Safari and Chrome *!*/
-    /*-moz-transition: all .4s ease; !* Firefox *!*/
-    /*-ms-transition: all .4s ease; !* IE 9 *!*/
-    /*-o-transition: all .4s ease; !* Opera *!*/
+    -webkit-transition: all .4s ease; /* Safari and Chrome */
+    -moz-transition: all .4s ease; /* Firefox */
+    -ms-transition: all .4s ease; /* IE 9 */
+    -o-transition: all .4s ease; /* Opera */
     transition: all .5s ease;
 }
 .nav-links li:hover {
@@ -64,6 +76,7 @@ h1 {
     -o-transform:scale(1.25); /* Opera */
     transform:scale(1.25);
 }
+
 .navbar-inverse .navbar-nav > li > a {
     color: #7e9592;
 }
