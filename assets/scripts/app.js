@@ -3,14 +3,13 @@ $(document).ready(function() {
         $(this).addClass('animated pulse').siblings().removeClass('animated pulse');
     });
 
-    $('.nav-links').on('mouseover', 'li', function() {
-        $(this).addClass('animated infinite pulse').siblings().removeClass('animated infinite pulse');
-    });
-
-    $('.nav-links').on('mouseout', 'li', function() {
+    $('.nav-links')
+        .on('mouseover', 'li', function() {
+        $(this).addClass('animated infinite pulse');
+    })
+        .on('mouseout', 'li', function() {
         $(this).removeClass('animated infinite pulse');
     });
-
 
     $('a[href^="#"]').on('click', function(e) {
 
