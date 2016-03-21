@@ -39,18 +39,15 @@ h1 {
 .navbar-inverse {
     background-color: #000000;
 }
-
- .navbar-brand {
+.navbar-inverse .navbar-brand{
     font-variant: small-caps;
     font-weight: bold;
     float: left;
     color: #7e9592;
     font-size: 28px;
 }
-.navbar-inverse .navbar-brand:hover,
-.navbar-inverse .navbar-brand:focus {
+.navbar-inverse .navbar-brand:hover{
     color: #7e9592;
-    background-color: transparent;
 }
 .site-nav p {
     margin: 15px 0 0 0;
