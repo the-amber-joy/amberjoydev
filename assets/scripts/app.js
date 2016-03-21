@@ -7,6 +7,10 @@ $(document).ready(function() {
         $(this).addClass('animated infinite pulse').siblings().removeClass('animated infinite pulse');
     });
 
+    $('.nav-links').on('mouseout', 'li', function() {
+        $(this).removeClass('animated infinite pulse');
+    });
+
 
     $('a[href^="#"]').on('click', function(e) {
 
