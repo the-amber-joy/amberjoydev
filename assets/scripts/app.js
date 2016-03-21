@@ -3,6 +3,10 @@ $(document).ready(function() {
         $(this).addClass('animated pulse').siblings().removeClass('animated pulse');
     });
 
+    $('.nav-links').on('mouseover', 'li', function() {
+        $(this).addClass('animated infinite pulse').siblings().removeClass('animated infinite pulse');
+    });
+
 
     $('a[href^="#"]').on('click', function(e) {
 
