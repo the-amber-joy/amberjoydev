@@ -16,6 +16,7 @@ body {
     margin: 20px auto 100px auto;
     font-family: Palatino, Helveltica, serif;
     color: #493e3b;
+    color: #000000;
 }
 .section {
     display: none;
@@ -35,7 +36,11 @@ h1 {
 }
 
 /*NAV BAR*/
-.navbar-inverse .navbar-brand {
+.navbar-inverse {
+    background-color: #000000;
+}
+
+ .navbar-brand {
     font-variant: small-caps;
     font-weight: bold;
     float: left;
