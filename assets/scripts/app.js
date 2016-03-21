@@ -2,14 +2,14 @@ $(document).ready(function() {
     $('.nav').on('click', 'li', function() {
         $(this).addClass('animated pulse').siblings().removeClass('animated pulse');
     });
-
-    $('.nav-links')
-        .on('mouseover', 'li', function() {
-        $(this).addClass('animated infinite pulse');
-    })
-        .on('mouseout', 'li', function() {
-        $(this).removeClass('animated infinite pulse');
-    });
+    //
+    //$('.nav-links')
+    //    .on('mouseover', 'li', function() {
+    //    $(this).addClass('animated infinite pulse');
+    //})
+    //    .on('mouseout', 'li', function() {
+    //    $(this).removeClass('animated infinite pulse');
+    //});
 
     $('a[href^="#"]').on('click', function(e) {
 
@@ -24,10 +24,6 @@ $(document).ready(function() {
         $(hash).show().addClass('animated fadeIn').siblings().removeClass('animated fadeIn');
 
     });
-
-
-    $('[data-toggle="popover"]').popover({ trigger: "hover", placement: "bottom" });
-
 
 });
 
