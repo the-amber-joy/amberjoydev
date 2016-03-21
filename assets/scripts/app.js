@@ -21,7 +21,7 @@ $(document).ready(function() {
 
         // display
         $(hash).siblings().hide();
-        $(hash).css('display','inline').addClass('animated fadeIn').siblings().removeClass('animated fadeIn');
+        $(hash).show().addClass('animated fadeIn').siblings().removeClass('animated fadeIn');
 
     });
 
