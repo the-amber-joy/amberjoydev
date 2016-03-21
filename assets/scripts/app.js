@@ -1,6 +1,7 @@
 $(document).ready(function() {
     $('.nav').on('click', 'li', function() {
         $(this).addClass('animated pulse').siblings().removeClass('animated pulse');
+        $(this).addClass('open').siblings().removeClass('open');
     });
     //
     //$('.nav-links')
