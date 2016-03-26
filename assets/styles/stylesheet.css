@@ -1,30 +1,28 @@
-html, body, header, section, footer, h1, h2, h3, h4, p, ol, ul, li, a {
-padding: 0;
-border: 0;
-margin: 0;
-font-size: 100%;
-font: inherit;
-list-style: none;
-text-decoration: none;
+html, body, header, main, section, footer, h1, h2, h3, h4, p, ol, ul, li, a {
+    padding: 0;
+    border: 0;
+    margin: 0;
+    font-size: 100%;
+    font: inherit;
+    list-style: none;
+    text-decoration: none;
 }
 body {
-    padding-top: 50px;
+    padding: 70px 20px;
     background-color: #fdeed1;
     background: url(http://www.zingerbugimages.com/backgrounds/tan_bamboo_wallpaper_tileable.jpg) top left repeat;
     width: 90%;
-    padding-bottom: 200px;
     margin: 20px auto 100px auto;
     font-family: Palatino, Helveltica, serif;
     color: #493e3b;
     color: #000000;
 }
+/*MAIN CONTENT*/
 .section {
     display: none;
 }
-a {
-    font-size: 22px;
-    color: #7e9592;
-    text-shadow: none;
+#welcome {
+    display: block;
 }
 h1 {
     font-variant: small-caps;
@@ -32,61 +30,42 @@ h1 {
     font-weight: bold;
     color: #2f3836;
     text-shadow: 1px 1px #7e9592;
-    padding-top: 10px;
 }
 
-/*NAV BAR*/
+/*NAV BAR SECTION*/
 .navbar-inverse {
     background-color: #000000;
 }
-.navbar-inverse .navbar-brand{
+.site-nav > .navbar-header,
+.site-nav > .navbar-nav {
+    padding-top: 10px;
+    padding-bottom -10:
+}
+/*NAVBAR BRAND - MY NAME*/
+.navbar-header > .navbar-brand {
     font-variant: small-caps;
     font-weight: bold;
     float: left;
     color: #7e9592;
     font-size: 28px;
 }
-.navbar-inverse .navbar-brand:hover{
-    color: #7e9592;
+.navbar-header > .navbar-brand:hover{
+    color: #fdeed1;
 }
-.site-nav p {
+.navbar-header > .navbar-brand > a {
     margin: 15px 0 0 0;
 }
-.nav-links {
-  height:inherit;
-    float: right;
-}
-.words p {
-  vertical-align: bottom;
-    padding-bottom: 5px;
-    display: none;
-    color: #fdeed1;
-    text-align: center;
-}
-#contact {
-    display: block;
-}
-.icons {
-    vertical-align: top;
-    -webkit-transition: all .4s ease; /* Safari and Chrome */
-    -moz-transition: all .4s ease; /* Firefox */
-    -ms-transition: all .4s ease; /* IE 9 */
-    -o-transition: all .4s ease; /* Opera */
-    transition: all .5s ease;
-}
-.nav-links li:hover {
-    -webkit-transform:scale(1.25); /* Safari and Chrome */
-    -moz-transform:scale(1.25); /* Firefox */
-    -ms-transform:scale(1.25); /* IE 9 */
-    -o-transform:scale(1.25); /* Opera */
-    transform:scale(1.25);
-}
-
+/*INTERNAL SITE LINKS*/
 .navbar-inverse .navbar-nav > li > a {
-    color: #7e9592;
+  font-size: 22px;
+  color: #7e9592;
+  text-shadow: none;
 }
 .navbar-inverse .navbar-nav > li > a:hover,
-.navbar-inverse .navbar-nav > li > a:focus {
+.navbar-inverse .navbar-nav > li > a:focus,
+.navbar-inverse .navbar-nav > .open > a,
+.navbar-inverse .navbar-nav > .open > a:hover,
+.navbar-inverse .navbar-nav > .open > a:focus {
     color: #fdeed1;
     background-color: transparent;
     -webkit-transition: all .3s ease; /* Safari and Chrome */
@@ -100,14 +79,37 @@ h1 {
     -o-transform:scale(1.1); /* Opera */
     transform:scale(1.1);
 }
-.navbar-inverse .navbar-nav > .open > a,
-.navbar-inverse .navbar-nav > .open > a:hover,
-.navbar-inverse .navbar-nav > .open > a:focus {
+/*NAVBAR ICON LINKS AND DESCRIPTTIVE TEXT*/
+/*ALL NAVIGATION LINKS*/
+.nav-icons {
+    height:inherit;
+    float: right;
+}
+/*This texct will NOT be hidden unless one of the other labels is displayed*/
+#contact {
+    display: block;
+}
+/*Labels for the icon links*/
+.words p {
+  vertical-align: bottom;
+    padding-bottom: 5px;
+    display: none;
     color: #fdeed1;
-    background-color: transparent;
-    -webkit-transform:scale(1.1); /* Safari and Chrome */
-    -moz-transform:scale(1.1); /* Firefox */
-    -ms-transform:scale(1.1); /* IE 9 */
-    -o-transform:scale(1.1); /* Opera */
-    transform:scale(1.1);
+    text-align: center;
+}
+/*Icon links*/
+.icons {
+    vertical-align: top;
+}
+.icons li:hover {
+    -webkit-transition: all .5s ease; /* Safari and Chrome */
+    -moz-transition: all .5s ease; /* Firefox */
+    -ms-transition: all .5s ease; /* IE 9 */
+    -o-transition: all .5s ease; /* Opera */
+    transition: all .5s ease;
+    -webkit-transform:scale(1.25); /* Safari and Chrome */
+    -moz-transform:scale(1.25); /* Firefox */
+    -ms-transform:scale(1.25); /* IE 9 */
+    -o-transform:scale(1.25); /* Opera */
+    transform:scale(1.25);
 }
