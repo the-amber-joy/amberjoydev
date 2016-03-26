@@ -37,7 +37,7 @@ h1 {
     background-color: #000000;
 }
 .site-nav > .navbar-header,
-.site-nav > .navbar-nav {
+.site-nav > .nav .navbar-nav {
     padding-top: 10px;
     padding-bottom -10:
 }
