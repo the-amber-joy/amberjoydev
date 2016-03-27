@@ -33,27 +33,35 @@ h1 {
 }
 
 /*NAV BAR SECTION*/
+.navbar.navbar-inverse.navbar-fixed-top {
+  height: 70px;
+}
 .navbar-inverse {
     background-color: #000000;
 }
-.site-nav > .navbar-header,
-.site-nav > .nav .navbar-nav {
-    padding-top: 10px;
-    padding-bottom -10:
+.site-nav {
+    padding-top: 5px;
+    float: left;
 }
 /*NAVBAR BRAND - MY NAME*/
-.navbar-header > .navbar-brand {
+.navbar-inverse .navbar-brand {
     font-variant: small-caps;
     font-weight: bold;
-    float: left;
     color: #7e9592;
     font-size: 28px;
+    -webkit-transition: none; /* Safari and Chrome */
+    -moz-transition:  none; /* Firefox */
+    -ms-transition:  none; /* IE 9 */
+    -o-transition:  none; /* Opera */
+    transition:  none;
+    -webkit-transform: none; /* Safari and Chrome */
+    -moz-transform: none; /* Firefox */
+    -ms-transform: none; /* IE 9 */
+    -o-transform: none; /* Opera */
+    transform: none;
 }
 .navbar-header > .navbar-brand:hover{
     color: #fdeed1;
-}
-.navbar-header > .navbar-brand > a {
-    margin: 15px 0 0 0;
 }
 /*INTERNAL SITE LINKS*/
 .navbar-inverse .navbar-nav > li > a {
@@ -81,9 +89,13 @@ h1 {
 }
 /*NAVBAR ICON LINKS AND DESCRIPTTIVE TEXT*/
 /*ALL NAVIGATION LINKS*/
+.nav > li > a {
+  padding: 15px px 5px 7px;
+}
 .nav-icons {
     height:inherit;
     float: right;
+    padding-right: 22px;
 }
 /*This texct will NOT be hidden unless one of the other labels is displayed*/
 #contact {
@@ -92,7 +104,6 @@ h1 {
 /*Labels for the icon links*/
 .words p {
   vertical-align: bottom;
-    padding-bottom: 5px;
     display: none;
     color: #fdeed1;
     text-align: center;
