@@ -31,6 +31,48 @@ h1 {
     color: #2f3836;
     text-shadow: 1px 1px #7e9592;
 }
+h2 {
+    font-variant: small-caps;
+    font-size: 32px;
+    font-weight: bold;
+    text-decoration: underline;
+    color: #2f3836;
+}
+h3 {
+    font-variant: small-caps;
+    font-size: 24px;
+    font-weight: bold;
+    color: #2f3836;
+}
+
+h4 {
+    /*font-variant: small-caps;*/
+    font-size: 18px;
+    font-weight: bold;
+    color: #2f3836;
+}
+
+.well {
+    border-width: 0;
+    background-color: transparent;
+}
+
+.resume {
+    text-align: justify;
+    list-style: circle;
+    margin: 0 10% 0 5%;
+}
+
+li.resume {
+    padding-bottom: 5px;
+}
+
+.job-date {
+	font-style: bold;
+	float: right;
+	margin-right: 50px;
+}
+
 
 /*NAV BAR SECTION*/
 .navbar.navbar-inverse.navbar-fixed-top {
