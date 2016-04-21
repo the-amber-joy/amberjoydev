@@ -59,12 +59,12 @@ h4 {
 
 .resume {
     text-align: justify;
-    list-style: circle;
     margin: 0 10% 0 5%;
 }
 
 li.resume {
     padding-bottom: 5px;
+    list-style: circle;
 }
 
 .job-date {
