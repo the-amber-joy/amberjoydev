@@ -6,6 +6,7 @@
     <title>Amber Joy</title>
     <!--scripts-->
     <script src="assets/vendors/jquery/jquery.min.js"></script>
+    <script src="http://www.w3schools.com/lib/w3data.js"></script>
     <script src="assets/scripts/app.js"></script>
     <!--styles-->
     <link href="assets/vendors/bootstrap/dist/css/bootstrap.min.css" rel="stylesheet">
@@ -60,23 +61,33 @@
     <div id="aboutMe" class="section">
         <h1>About Me</h1>
         <p>Some things about me would go here. I am going to say some things about me</p>
-        <iframe src="http://giphy.com/embed/RETg1tippXtNm" width="480" height="270" frameBorder="0" class="giphy-embed" allowFullScreen></iframe>
     </div>
 
     <div id="resume" class="section">
         <h1>Resume</h1>
-        <p>Do you want to hire me?</p>
-        <iframe src="http://giphy.com/embed/310wCPV0kDUuk" width="480" height="270" frameBorder="0" class="giphy-embed" allowFullScreen></iframe>
+        <a href="/assets/a_joy_resume.pdf" download>Download as PDF</a>
+        <p>
+            <i>References available upon request.</i>
+        </p>
+
+        <div w3-include-html="/assets/resume.html"></div>
+
+
     </div>
 
     <div id="welcome">
         <h1 class="animated bounceInLeft">Welcome</h1>
-        <iframe src="http://giphy.com/embed/l41lVsYDBC0UVQJCE" width="480" height="269" frameBorder="0" class="giphy-embed" allowFullScreen></iframe>
+        <p>
+            Please use the links above to learn more about me, or the icons on the right to contact me!
+        </p>
     </div>
 
 
 </div>
 
+<script>
+w3IncludeHTML();
+</script>
 
 </body>
 </html>
