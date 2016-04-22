@@ -57,7 +57,7 @@ h4 {
     background-color: transparent;
 }
 
-.resume {
+.resume, .justifytext {
     text-align: justify;
     margin: 0 10% 0 5%;
 }
