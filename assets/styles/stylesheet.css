@@ -52,17 +52,36 @@ h4 {
     color: #2f3836;
 }
 
+a {
+    color: #586866;
+}
+
+a:hover {
+    color: #2f3836;
+}
+
 .well {
     border-width: 0;
     background-color: transparent;
 }
 
-.resume, .justifytext {
+.panel-info>.panel-heading {
+    color: #fdeed1;
+    background-color: #7e9592;
+    border-color: #000000;
+
+}
+
+.panel {
+    border-color: #000000;
+}
+
+.justifytext {
     text-align: justify;
     margin: 0 10% 0 5%;
 }
 
-li.resume {
+li.justifytext {
     padding-bottom: 5px;
     list-style: circle;
 }
@@ -71,10 +90,6 @@ li.resume {
 	font-style: bold;
 	float: right;
 	margin-right: 50px;
-}
-
-ol, ol>li {
-    list-style-type: decimal;
 }
 
 /*NAV BAR SECTION*/
