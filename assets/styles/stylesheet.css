@@ -18,12 +18,6 @@ body {
     color: #000000;
 }
 /*MAIN CONTENT*/
-.section {
-    display: none;
-}
-#welcome {
-    display: block;
-}
 h1 {
     font-variant: small-caps;
     font-size: 52px;
@@ -92,18 +86,9 @@ li.justifytext {
 	margin-right: 50px;
 }
 
-/*NAV BAR SECTION*/
-.navbar.navbar-inverse.navbar-fixed-top {
-  height: 70px;
-}
-.navbar-inverse {
-    background-color: #000000;
-}
-.site-nav {
-    padding-top: 5px;
-    float: left;
-}
-/*NAVBAR BRAND - MY NAME*/
+/*NAVBAR*/
+
+NAVBAR BRAND - MY NAME
 .navbar-inverse .navbar-brand {
     font-variant: small-caps;
     font-weight: bold;
@@ -149,38 +134,38 @@ li.justifytext {
 }
 /*NAVBAR ICON LINKS AND DESCRIPTTIVE TEXT*/
 /*ALL NAVIGATION LINKS*/
-.nav > li > a {
+/*.nav > li > a {
   padding: 15px px 5px 7px;
 }
 .nav-icons {
     height:inherit;
     float: right;
     padding-right: 22px;
-}
+}*/
 /*This texct will NOT be hidden unless one of the other labels is displayed*/
-#contact {
+/*#contact {
     display: block;
-}
+}*/
 /*Labels for the icon links*/
-.words p {
+/*.words p {
   vertical-align: bottom;
     display: none;
     color: #fdeed1;
     text-align: center;
-}
+}*/
 /*Icon links*/
-.icons {
+/*.icons {
     vertical-align: top;
-}
-.icons li:hover {
+}*/
+/*.icons li:hover {
     -webkit-transition: all .5s ease; /* Safari and Chrome */
-    -moz-transition: all .5s ease; /* Firefox */
-    -ms-transition: all .5s ease; /* IE 9 */
-    -o-transition: all .5s ease; /* Opera */
-    transition: all .5s ease;
+/*    -moz-transition: all .5s ease; /* Firefox */
+/*    -ms-transition: all .5s ease; /* IE 9 */
+/*    -o-transition: all .5s ease; /* Opera */
+/*    transition: all .5s ease;
     -webkit-transform:scale(1.25); /* Safari and Chrome */
-    -moz-transform:scale(1.25); /* Firefox */
-    -ms-transform:scale(1.25); /* IE 9 */
-    -o-transform:scale(1.25); /* Opera */
-    transform:scale(1.25);
-}
+/*    -moz-transform:scale(1.25); /* Firefox */
+/*    -ms-transform:scale(1.25); /* IE 9 */
+/*    -o-transform:scale(1.25); /* Opera */
+/*    transform:scale(1.25);
+}*/

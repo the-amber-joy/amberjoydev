@@ -7,79 +7,51 @@
     <title>Amber Joy</title>
     <!--scripts-->
     <script src="assets/vendors/jquery/jquery.min.js"></script>
-    <script src="http://www.w3schools.com/lib/w3data.js"></script>
+    <script src="assets/vendors/bootstrap/dist/js/bootstrap.min.js"></script>
     <script src="assets/scripts/app.js"></script>
     <!--styles-->
     <link href="assets/vendors/bootstrap/dist/css/bootstrap.min.css" rel="stylesheet">
     <link rel="stylesheet" href="assets/styles/animate.css">
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css">
-    <link rel="stylesheet" href="assets/styles/stylesheet.css">
+    <link href="assets/styles/stylesheet.css" rel="stylesheet" >
 </head>
 
 <body>
-
-
-    <nav class="navbar navbar-inverse navbar-fixed-top">
-        <div class="site-nav">
-            <div class="navbar-header">
-                <a href="#welcome" class="navbar-brand">Amber Joy</a>
+<!-- Fixed Navbar -->
+    <nav class="navbar navbar-inverse navbar-fixed-top" role="navigation">
+        <div class="container">
+                <div class="navbar-header">
+                    <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
+                        <span class="sr-only">Toggle navigation</span>
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                    </button>
+                    <a href="#welcome" class="navbar-brand">Amber Joy</a>
+                </div>
+                <div class="navbar-collapse collapse">
+                    <ul class="nav navbar-nav navbar-right">
+                        <li><a href="#aboutMe">About</a></li>
+                        <li><a href="#resume">Resume</a></li>
+                        <li class="dropdown">
+                            <a href="#" class="dropdown-toggle" data-toggle="dropdown">Contact Links<b class="caret"></b></a>
+                            <ul class="dropdown-menu">
+                                <li><a href="mailto:amber.joy@gmail.com" target="_blank">Email</a></li>
+                                <li><a href="skype:the.amber.joy?userinfo">Skype Profile</a></li>
+                                <li><a href="https://www.linkedin.com/in/theamberjoy" target="_blank">LinkedIn</a></li>
+                                <li><a href="https://github.com/the-amber-joy" target="_blank">GitHub</a></li>
+                            </ul>
+                        </li>
+                    </ul>
+                </div>
             </div>
-            <ul class="nav navbar-nav">
-                <li>
-                    <a href="#aboutMe">
-                        <p>About Me</p>
-                    </a>
-                </li>
-                <li>
-                    <a href="#resume">
-                        <p>Resume</p>
-                    </a>
-                </li>
-            </ul>
-        </div>
-
-        <div class="nav-links nav-icons">
-            <div class="icons clearfix">
-                <ul class="nav navbar-nav">
-                    <li class="email">
-                        <a href="mailto:amber.joy@gmail.com" target="_blank">
-                            <span class="fa fa-envelope"></span>
-                        </a>
-                    </li>
-                    <li class="skype">
-                        <a href="skype:the.amber.joy?userinfo">
-                            <span class="fa fa-skype"></span>
-                        </a>
-                    </li>
-                    <li class="linkedin">
-                        <a href="https://www.linkedin.com/in/theamberjoy" target="_blank">
-                            <span class="fa fa-linkedin"></span>
-                        </a>
-                    </li>
-                    <li class="github">
-                        <a href="https://github.com/the-amber-joy" target="_blank">
-                            <span class="fa fa-github"></span>
-                        </a>
-                    </li>
-                </ul>
-            </div>
-            <div class="words">
-                <p id="contact">Contact Information</p>
-                <p id="email">Email Me</p>
-                <p id="skype">My Skype Profile</p>
-                <p id="linkedin">My LinkedIn Profile</p>
-                <p id="github">My GitHub Profile</p>
-            </div>
-        </div>
-
-    </nav>
+        </nav>
 
     <main>
-        <div>
             <div id="welcome">
-                <h1 class="animated bounceInLeft">Welcome</h1>
+                <h1>Welcome</h1>
                 <p>
-                    Please use the links above to learn more about me, or the icons on the right to contact me!
+                    Hi, I'm Amber. Please use the links above to learn more about me, or to contact me directly!
                 </p>
             </div>
             <div id="aboutMe" class="section">
@@ -131,6 +103,9 @@
                     <p class="justifytext">
                         I worked very briefly as a field archaeologist right out of college, then decided to transition into office jobs where the weather didn't affect my ability to work. But in my own time, I've always been a technophile, and found myself
                         feeling very at-home with the software development team I supported at Symantec Corporation (now Veritas Technologies). However, I was always interested in getting "behind the code" someday, and am very excited to be making that move now.
+                    </p><br />
+                    <p class="justifytext">
+                        Please feel free to contact me if you'd like to learn more!
                     </p>
 
             </div>
@@ -154,7 +129,7 @@
                     <ul>
                         <li>JavaScript</li>
                         <li>Node.js / Express.js</li>
-                        <li>Ruby / Rails</li>
+                        <li>PHP</li>
                         <li>AngularJS</li>
                         <li>jQuery</li>
                         <li>MongoDB</li>
@@ -308,13 +283,8 @@
                 </ul>
             </div>
 
-        </div>
     </main>
 
-
-    <!-- <script>
-        w3IncludeHTML();
-    </script> -->
 
 </body>
 

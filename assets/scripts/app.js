@@ -1,24 +1,22 @@
 $(document).ready(function() {
-    $('.nav').on('click', 'li', function() {
-        $(this).addClass('animated pulse').siblings().removeClass('animated pulse');
-        $(this).addClass('open').siblings().removeClass('open');
-    });
-
     $('a[href^="#"]').on('click', function(e) {
-        e.preventDefault();
-        var hash = this.hash;
-        $(hash).siblings().hide();
-        $(hash).show().addClass('animated fadeIn').siblings().removeClass('animated fadeIn');
+
+    // prevent default anchor click behavior
+    e.preventDefault();
+
+    // store hash
+    var hash = this.hash;
+
+    // animate
+    $('html, body').animate({
+        scrollTop: $(hash).offset().top
+    }, 300, function(){
+
+        // when done, add hash to url
+        // (default click behaviour)
+        // window.location.hash = hash;
     });
 
+});
 
-    $('.nav-links').on('mouseover', 'li', function() {
-            var thisClass = $(this).attr('class');
-            $(this).parent().parent().parent().find('#'+thisClass).show().siblings().hide();
-        })
-        .on('mouseout', 'li', function() {
-        var thisClass = $(this).attr('class');
-            $(this).parent().parent().parent().find('#contact').show();
-            $(this).parent().parent().parent().find('#'+thisClass).hide();
-    })
 });
