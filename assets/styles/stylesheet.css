@@ -88,25 +88,12 @@ li.justifytext {
 
 /*NAVBAR*/
 
-NAVBAR BRAND - MY NAME
-.navbar-inverse .navbar-brand {
+/*NAVBAR BRAND - MY NAME*/
+.navbar-brand {
     font-variant: small-caps;
     font-weight: bold;
     color: #7e9592;
     font-size: 28px;
-    -webkit-transition: none; /* Safari and Chrome */
-    -moz-transition:  none; /* Firefox */
-    -ms-transition:  none; /* IE 9 */
-    -o-transition:  none; /* Opera */
-    transition:  none;
-    -webkit-transform: none; /* Safari and Chrome */
-    -moz-transform: none; /* Firefox */
-    -ms-transform: none; /* IE 9 */
-    -o-transform: none; /* Opera */
-    transform: none;
-}
-.navbar-header > .navbar-brand:hover{
-    color: #fdeed1;
 }
 /*INTERNAL SITE LINKS*/
 .navbar-inverse .navbar-nav > li > a {
@@ -120,52 +107,4 @@ NAVBAR BRAND - MY NAME
 .navbar-inverse .navbar-nav > .open > a:hover,
 .navbar-inverse .navbar-nav > .open > a:focus {
     color: #fdeed1;
-    background-color: transparent;
-    -webkit-transition: all .3s ease; /* Safari and Chrome */
-    -moz-transition: all .3s ease; /* Firefox */
-    -ms-transition: all .3s ease; /* IE 9 */
-    -o-transition: all .3s ease; /* Opera */
-    transition: all .3s ease;
-    -webkit-transform:scale(1.1); /* Safari and Chrome */
-    -moz-transform:scale(1.1); /* Firefox */
-    -ms-transform:scale(1.1); /* IE 9 */
-    -o-transform:scale(1.1); /* Opera */
-    transform:scale(1.1);
 }
-/*NAVBAR ICON LINKS AND DESCRIPTTIVE TEXT*/
-/*ALL NAVIGATION LINKS*/
-/*.nav > li > a {
-  padding: 15px px 5px 7px;
-}
-.nav-icons {
-    height:inherit;
-    float: right;
-    padding-right: 22px;
-}*/
-/*This texct will NOT be hidden unless one of the other labels is displayed*/
-/*#contact {
-    display: block;
-}*/
-/*Labels for the icon links*/
-/*.words p {
-  vertical-align: bottom;
-    display: none;
-    color: #fdeed1;
-    text-align: center;
-}*/
-/*Icon links*/
-/*.icons {
-    vertical-align: top;
-}*/
-/*.icons li:hover {
-    -webkit-transition: all .5s ease; /* Safari and Chrome */
-/*    -moz-transition: all .5s ease; /* Firefox */
-/*    -ms-transition: all .5s ease; /* IE 9 */
-/*    -o-transition: all .5s ease; /* Opera */
-/*    transition: all .5s ease;
-    -webkit-transform:scale(1.25); /* Safari and Chrome */
-/*    -moz-transform:scale(1.25); /* Firefox */
-/*    -ms-transform:scale(1.25); /* IE 9 */
-/*    -o-transform:scale(1.25); /* Opera */
-/*    transform:scale(1.25);
-}*/
