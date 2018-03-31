@@ -16,7 +16,5 @@ $(document).ready(function() {
         // (default click behaviour)
         // window.location.hash = hash;
     });
-
-});
-
+    });
 });
