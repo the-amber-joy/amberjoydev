@@ -51,6 +51,7 @@ a {
 
 a:hover {
     color: #2f3836;
+    text-decoration: none;
 }
 
 .well {
