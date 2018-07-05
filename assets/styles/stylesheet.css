@@ -11,26 +11,49 @@ body {
     padding: 70px 20px;
     background-color: #fdeed1;
     background: url(http://www.zingerbugimages.com/backgrounds/tan_bamboo_wallpaper_tileable.jpg) top left repeat;
-    width: 90%;
+    width: 90vw;
     font-family: Palatino, Helveltica, serif;
     color: #493e3b;
-    /* color: #000000; */
 }
 /*MAIN CONTENT*/
+
+main {
+    /* display: flex;
+    flex-direction: column; */
+}
+
+.moptop {
+    width: 250px;
+    margin: auto;
+}
+
 h1 {
-    font-variant: small-caps;
+    font-size: 20px;
+    font-weight: bold;
+    color: #2f3836;
+    /* font-variant: small-caps;
     font-size: 52px;
     font-weight: bold;
     color: #2f3836;
-    text-shadow: 1px 1px #7e9592;
+    text-shadow: 1px 1px #7e9592; */
 }
-h2 {
+
+p {
+    font-size: 18px;
+}
+
+.hello {
+    margin-top: 10px;
+}
+
+/* h2 {
     font-variant: small-caps;
     font-size: 32px;
     font-weight: bold;
     text-decoration: underline;
     color: #2f3836;
 }
+
 h3 {
     font-variant: small-caps;
     font-size: 24px;
@@ -39,52 +62,10 @@ h3 {
 }
 
 h4 {
-    /*font-variant: small-caps;*/
     font-size: 18px;
     font-weight: bold;
     color: #2f3836;
-}
-
-a {
-    color: #586866;
-}
-
-a:hover {
-    color: #2f3836;
-    text-decoration: none;
-}
-
-.well {
-    border-width: 0;
-    background-color: transparent;
-}
-
-.panel-info>.panel-heading {
-    color: #fdeed1;
-    background-color: #7e9592;
-    border-color: #000000;
-
-}
-
-.panel {
-    border-color: #000000;
-}
-
-.justifytext {
-    text-align: justify;
-    margin: 0 10% 0 5%;
-}
-
-li.justifytext {
-    padding-bottom: 5px;
-    list-style: circle;
-}
-
-.job-date {
-	font-style: bold;
-	float: right;
-	margin-right: 50px;
-}
+} */
 
 /*NAVBAR*/
 
@@ -92,20 +73,25 @@ li.justifytext {
 .navbar-inverse .navbar-brand {
     font-variant: small-caps;
     font-weight: bold;
-    color: #7e9592;
+    color: #b4c1c1;
     font-size: 28px;
 }
 
 .navbar-inverse .navbar-brand:hover {
     font-variant: small-caps;
     font-weight: bold;
-    color: #7e9592;
+    color: #b4c1c1;
     font-size: 28px;
 }
+
+.icon-bar {
+    background-color: #fdeed1 !important;
+}
+
 /*INTERNAL SITE LINKS*/
 .navbar-inverse .navbar-nav > li > a {
-  font-size: 22px;
-  color: #7e9592;
+  font-size: 18px;
+  color: #b4c1c1;
   text-shadow: none;
 }
 .navbar-inverse .navbar-nav > li > a:hover,
