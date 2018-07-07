@@ -17,16 +17,6 @@ body {
 }
 /*MAIN CONTENT*/
 
-main {
-    /* display: flex;
-    flex-direction: column; */
-}
-
-.moptop {
-    width: 250px;
-    margin: auto;
-}
-
 h1 {
     font-size: 20px;
     font-weight: bold;
@@ -38,12 +28,22 @@ h1 {
     text-shadow: 1px 1px #7e9592; */
 }
 
+main {
+    width: 100vw;
+    display: flex;
+    flex-direction: column;
+}
+
 p {
     font-size: 18px;
 }
 
-.hello {
-    margin-top: 10px;
+.moptop {
+    max-width: 300px;
+}
+
+.pic, .hello {
+    margin: 10px auto;
 }
 
 /* h2 {
