@@ -7,69 +7,43 @@ html, body, header, main, section, footer, h1, h2, h3, h4, p, ul, li, a {
     list-style: none;
     text-decoration: none;
 }
+
 body {
     padding: 70px 20px;
     background-color: #fdeed1;
     background: url(http://www.zingerbugimages.com/backgrounds/tan_bamboo_wallpaper_tileable.jpg) top left repeat;
-    width: 90vw;
+    width: 100vw;
     font-family: Palatino, Helveltica, serif;
     color: #493e3b;
 }
-/*MAIN CONTENT*/
 
+/*MAIN CONTENT*/
 h1 {
     font-size: 20px;
     font-weight: bold;
     color: #2f3836;
-    /* font-variant: small-caps;
-    font-size: 52px;
-    font-weight: bold;
-    color: #2f3836;
-    text-shadow: 1px 1px #7e9592; */
-}
-
-main {
-    width: 100vw;
-    display: flex;
-    flex-direction: column;
+    text-align: center;
 }
 
 p {
     font-size: 18px;
+    text-align: center;
 }
 
-.moptop {
+img {
+    margin: 0 auto;
+    display: block;
+}
+
+.pic-div, .greeting {
+    margin: 10px;
+}
+
+.my-img {
     max-width: 300px;
 }
 
-.pic, .hello {
-    margin: 10px auto;
-}
-
-/* h2 {
-    font-variant: small-caps;
-    font-size: 32px;
-    font-weight: bold;
-    text-decoration: underline;
-    color: #2f3836;
-}
-
-h3 {
-    font-variant: small-caps;
-    font-size: 24px;
-    font-weight: bold;
-    color: #2f3836;
-}
-
-h4 {
-    font-size: 18px;
-    font-weight: bold;
-    color: #2f3836;
-} */
-
 /*NAVBAR*/
-
-/*NAVBAR BRAND - MY NAME*/
 .navbar-inverse .navbar-brand {
     font-variant: small-caps;
     font-weight: bold;
@@ -88,11 +62,10 @@ h4 {
     background-color: #fdeed1 !important;
 }
 
-/*INTERNAL SITE LINKS*/
 .navbar-inverse .navbar-nav > li > a {
-  font-size: 18px;
-  color: #b4c1c1;
-  text-shadow: none;
+    font-size: 18px;
+    color: #b4c1c1;
+    text-shadow: none;
 }
 .navbar-inverse .navbar-nav > li > a:hover,
 .navbar-inverse .navbar-nav > li > a:focus,
