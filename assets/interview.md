@@ -15,7 +15,7 @@ This interview took place over Skype. I was in Cambridge, Massachusetts, and Tod
 -Matt Bieber
 
 ## I: INDIANA JONES HAD NO GOOD OPTIONS
-THE BELIEVER: I finished the book this morning. About halfway through, I began thinking about Indiana Jones and The Last Crusade. Have you seen it?
+**THE BELIEVER:** I finished the book this morning. About halfway through, I began thinking about Indiana Jones and The Last Crusade. Have you seen it?
 
 **TODD MAY:** I don't know if I've seen The Last Crusade. I've seen several of them.
 
