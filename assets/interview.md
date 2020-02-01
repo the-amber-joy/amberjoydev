@@ -1,5 +1,6 @@
 # The Believer - Interview with TODD MAY
-believermag.com
+[believermag.com](believermag.com)
+
 Todd May is the Class of 1941 Memorial Professor at Clemson University-a very fancy title for a very non-fancy guy. He is bald, plays basketball, has a wife and two kids, and kind of looks like Michel Foucault (which is weird, because Todd has written a book about him). He's written nine other books, too-including a volume about poststructuralist anarchism and another about friendship under neoliberalism-but with Todd, talking about his resume somehow feels beside the point.
 
 The first time I met Todd was at Nội Bài Airport in Hanoi. I was living there, and Todd had decided to fly over for a visit. My best friend Dan (one of Todd's students) had put us in touch, and we spent a couple of days riding around on motorbikes and talking about whatever came to mind.
