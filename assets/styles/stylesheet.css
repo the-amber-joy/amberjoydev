@@ -82,4 +82,5 @@ img {
 #copyright:hover {
     color: #777!important;
     text-decoration: none!important;
+    cursor: default;
 }
