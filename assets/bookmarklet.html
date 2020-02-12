@@ -1,0 +1,12 @@
+<a id="bookmarklet">Remove Modals</a>
+
+
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+<script type="text/javascript">
+$(document).ready(function() {
+    const bookmarkletUrl = $.get(
+        'https://gist.githubusercontent.com/the-amber-joy/d9e7e67d1f810858d44370123e32aeb3/raw/1c745232358b91825a9a379a3ec158360831bb24/removeModals.js', (result) => {
+            $("#bookmarklet").attr("href", result);
+        });
+});
+</script>
