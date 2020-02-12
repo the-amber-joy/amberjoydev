@@ -74,3 +74,12 @@ img {
 .navbar-inverse .navbar-nav > .open > a:focus {
     color: #fdeed1;
 }
+
+
+#copyright {
+    color: #777!important;
+}
+#copyright:hover {
+    color: #777!important;
+    text-decoration: none!important;
+}
