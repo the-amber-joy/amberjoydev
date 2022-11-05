@@ -1,86 +1,119 @@
-html, body, header, main, section, footer, h1, h2, h3, h4, p, ul, li, a {
-    padding: 0;
-    border: 0;
-    margin: 0;
-    font-size: 100%;
-    font: inherit;
-    list-style: none;
-    text-decoration: none;
+html,
+body,
+header,
+main,
+section,
+footer,
+h1,
+h2,
+h3,
+h4,
+p,
+ul,
+li,
+a {
+  padding: 0;
+  border: 0;
+  margin: 0;
+  font-size: 100%;
+  font: inherit;
+  list-style: none;
+  text-decoration: none;
 }
 
 body {
-    padding: 70px 20px;
-    background-color: #fdeed1;
-    background: url(https://www.zingerbugimages.com/backgrounds/tan_bamboo_wallpaper_tileable.jpg) top left repeat;
-    width: 100vw;
-    font-family: Palatino, Helveltica, serif;
-    color: #493e3b;
+  padding: 70px 20px;
+  background-color: #fdeed1;
+  background: url(https://www.zingerbugimages.com/backgrounds/tan_bamboo_wallpaper_tileable.jpg)
+    top left repeat;
+  width: 100vw;
+  font-family: Palatino, Helveltica, serif;
+  color: #493e3b;
 }
 
 /*MAIN CONTENT*/
 h1 {
-    font-size: 20px;
-    font-weight: bold;
-    color: #2f3836;
-    text-align: center;
+  font-size: 20px;
+  font-weight: bold;
+  color: #2f3836;
+  text-align: center;
 }
 
 p {
-    font-size: 18px;
-    text-align: center;
+  font-size: 18px;
+  text-align: center;
 }
 
 img {
-    margin: 0 auto;
-    display: block;
+  margin: 0 auto;
+  display: block;
 }
 
-.pic-div, .greeting {
-    margin: 10px;
+.pic-div,
+.greeting {
+  margin: 10px;
 }
 
 .my-img {
-    max-width: 300px;
+  max-width: 300px;
+}
+
+/* Social Media Links */
+ul, li {
+  display: inline-block;
+  text-align: left;
+}
+.icon {
+  display: inline-block;
+  width: 1.28571429em;
+  fill: #b4c1c1;
+  font-size: large;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
 }
 
 /*NAVBAR*/
 .navbar-inverse .navbar-brand {
-    font-variant: small-caps;
-    font-weight: bold;
-    color: #b4c1c1;
-    font-size: 28px;
+  font-variant: small-caps;
+  font-weight: bold;
+  color: #b4c1c1;
+  font-size: 28px;
 }
 
 .navbar-inverse .navbar-brand:hover {
-    font-variant: small-caps;
-    font-weight: bold;
-    color: #b4c1c1;
-    font-size: 28px;
-}
-
-.icon-bar {
-    background-color: #fdeed1 !important;
+  font-variant: small-caps;
+  font-weight: bold;
+  color: #b4c1c1;
+  font-size: 28px;
 }
 
 .navbar-inverse .navbar-nav > li > a {
-    font-size: 18px;
-    color: #b4c1c1;
-    text-shadow: none;
+  font-size: 18px;
+  color: #b4c1c1;
+  text-shadow: none;
 }
 .navbar-inverse .navbar-nav > li > a:hover,
 .navbar-inverse .navbar-nav > li > a:focus,
 .navbar-inverse .navbar-nav > .open > a,
 .navbar-inverse .navbar-nav > .open > a:hover,
 .navbar-inverse .navbar-nav > .open > a:focus {
-    color: #fdeed1;
+  color: #fdeed1;
+}
+
+.navbar-collapse.collapse .contact .nav.navbar-nav.navbar-right .link-label {
+  display: none;
+}
+.navbar-collapse.collapse.in .contact .nav.navbar-nav.navbar-right .link-label {
+  display: inline;
 }
 
 
+/* footer */
 #copyright {
-    color: #777!important;
+  color: #777 !important;
 }
 #copyright:hover {
-    color: #777!important;
-    text-decoration: none!important;
-    cursor: default;
+  color: #777 !important;
+  text-decoration: none !important;
+  cursor: default;
 }
