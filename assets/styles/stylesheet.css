@@ -22,7 +22,7 @@ a {
 }
 
 body {
-  padding: 70px 20px;
+  padding-top: 70px;
   background-color: #fdeed1;
   background: url(https://www.zingerbugimages.com/backgrounds/tan_bamboo_wallpaper_tileable.jpg)
     top left repeat;
@@ -59,10 +59,6 @@ img {
 }
 
 /* Social Media Links */
-ul, li {
-  display: inline-block;
-  text-align: left;
-}
 .icon {
   display: inline-block;
   width: 1.28571429em;
@@ -116,4 +112,35 @@ ul, li {
   color: #777 !important;
   text-decoration: none !important;
   cursor: default;
+}
+
+/* Social Media Links */
+.social {
+  width: 2.5rem;
+  margin: 0 auto;
+}
+
+.links > li {
+  display: block;  
+}
+.icon {
+  font-size: xx-large;
+  width: 1.28571429em;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+.mastodon {
+  fill: #6364ff;
+}
+.twitter {
+  fill: #1da1f2;
+}
+.ravelry {
+  fill: #ee6e62;
+}
+.github {
+  fill: #181717;
+}
+.linkedin {
+  fill: #0a66c2;
 }
