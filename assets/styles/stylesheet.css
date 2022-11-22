@@ -129,6 +129,18 @@ img {
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
 }
+.post {
+
+}
+.st0 {
+  fill-rule: evenodd;
+  clip-rule: evenodd;
+  fill: #688FFC;
+}
+
+.st1 {
+  fill: #FFFFFF;
+}
 .mastodon {
   fill: #6364ff;
 }
