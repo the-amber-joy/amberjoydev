@@ -1,1 +1,2 @@
-[White Chili](/white-chili)
+# My Recipes
+[White Chili](/recipes/white-chili)
