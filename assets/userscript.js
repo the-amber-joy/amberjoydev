@@ -1,8 +1,7 @@
 // ==UserScript==
 // @name         Cleanup
 // @namespace    https://amberjoy.dev
-// @updateURL    https://amberjoy.dev/assets/userscript.js
-// @downloadURL  https://amberjoy.dev/assets/userscript.js
+// @source       https://amberjoy.dev/assets/userscript.js
 // @version      0.42
 // @description  Remove ads/subscription/some paywall modals
 // @author       Amber Joy
