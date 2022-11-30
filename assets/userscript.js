@@ -8,6 +8,8 @@
 // @match        https://*/*
 // @exclude      https://twitter.com/*
 // @exclude      https://*.twitter.com/*
+// @exclude      https://*.github.com/*
+// @exclude      https://*.github.dev/*
 // @icon         none
 // @grant        none
 // @run-at       document-end
