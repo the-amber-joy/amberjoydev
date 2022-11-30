@@ -2,7 +2,7 @@
 // @name         Cleanup
 // @namespace    https://amberjoy.dev
 // @source       https://amberjoy.dev/assets/userscript.js
-// @version      0.2
+// @version      0.3
 // @description  Remove ads/subscription/some paywall modals
 // @author       Amber Joy
 // @match        https://*/*
@@ -12,7 +12,7 @@
 // @exclude      https://*.github.dev/*
 // @icon         none
 // @grant        none
-// @run-at       document-end
+// @run-at       document-start
 // ==/UserScript==
 (function () {
   "use strict";
