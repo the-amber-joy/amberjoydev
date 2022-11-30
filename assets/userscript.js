@@ -2,7 +2,7 @@
 // @name         Cleanup
 // @namespace    https://amberjoy.dev
 // @source       https://amberjoy.dev/assets/userscript.js
-// @version      0.42
+// @version      0.2
 // @description  Remove ads/subscription/some paywall modals
 // @author       Amber Joy
 // @match        https://*/*
