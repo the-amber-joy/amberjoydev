@@ -17,7 +17,11 @@
 (function () {
   "use strict";
 
-  const elementsToRemove = [
+    // WARNING! This script is a WIP, breaks
+    // several pages (eg: github, twitter),
+    // and still needs to be fixed.
+
+    const elementsToRemove = [
     // Found on Github
     "[data-ad-client]",
     ".adsbygoogle",
