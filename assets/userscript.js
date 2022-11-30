@@ -1,7 +1,9 @@
 // ==UserScript==
 // @name         Mmmmm
-// @namespace    https://amberjoy.dev/assets/userscript.js
-// @version      0.3
+// @namespace    https://amberjoy.dev
+// @updateURL    https://amberjoy.dev/assets/userscript.js
+// @downloadURL  https://amberjoy.dev/assets/userscript.js
+// @version      0.4
 // @description  Remove ads/subscription/some paywall modals
 // @author       Amber Joy
 // @match        https://*/*
