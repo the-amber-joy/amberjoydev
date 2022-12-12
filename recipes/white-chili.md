@@ -15,8 +15,8 @@ It took me a few iterations to get this recipe exactly how I wanted it and now i
 
 ## Instructions
 
-# Put all ingredients EXCEPT evaporated milk into slow cooker.
-# Cook on low for 6-8 hours (or less time on high).
-# Use a large spoon or fork to mix and shred the chicken thighs. The chicken should be very tender and shred easily!
-# Stir in evaporated milk and serve immediately.
+- Put all ingredients EXCEPT evaporated milk into slow cooker.
+- Cook on low for 6-8 hours (or less time on high).
+- Use a large spoon or fork to mix and shred the chicken thighs. The chicken should be very tender and shred easily!
+- Stir in evaporated milk and serve immediately.
 - Makes about 6 servings.
