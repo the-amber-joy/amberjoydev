@@ -20,3 +20,5 @@ It took me a few iterations to get this recipe exactly how I wanted it and now i
 - Use a large spoon or fork to mix and shred the chicken thighs. The chicken should be very tender and shred easily!
 - Stir in evaporated milk and serve immediately.
 - Makes about 6 servings.
+
+### [Back to Recipes](/recipes)

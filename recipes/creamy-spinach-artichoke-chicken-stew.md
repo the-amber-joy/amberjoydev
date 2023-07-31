@@ -6,7 +6,7 @@ have time, there is also a slow-cooker version of this recipe. Fresh dill and sc
 added just before serving, and provide bright, herbal flavor that offsets the richness of the
 finished dish.
 
-### 6 servings
+### 6 servings / 50 minutes
 - 435 calories
 - 39 g protein
 - 23 g fat
@@ -55,3 +55,5 @@ chicken is tender and the flavors are blended, another 10 to 15 minutes.
 forks, coarsely break or shred the chicken into large chunks. Taste and add more salt
 and black pepper if necessary.
 6. Divide the stew among bowls, and top with scallions and Parmesan.
+
+### [Back to Recipes](/recipes/)
