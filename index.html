@@ -1,194 +1,120 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Amber Joy</title>
-    <!--scripts-->
-    <script src="assets/vendors/jquery/jquery.min.js"></script>
-    <script src="assets/vendors/bootstrap/dist/js/bootstrap.min.js"></script>
-    <!--styles-->
-    <link
-      href="assets/vendors/bootstrap/dist/css/bootstrap.min.css"
-      rel="stylesheet"
-    />
-    <link href="assets/styles/stylesheet.css" rel="stylesheet" />
-    <!-- favicons -->
-    <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png" />
-    <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png" />
-    <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png" />
-    <link rel="manifest" href="/site.webmanifest" />
-  </head>
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Amber Joy</title>
+  <!--scripts-->
+  <script src="assets/vendors/jquery/jquery.min.js"></script>
+  <script src="assets/vendors/bootstrap/dist/js/bootstrap.min.js"></script>
+  <!--styles-->
+  <link href="assets/vendors/bootstrap/dist/css/bootstrap.min.css" rel="stylesheet" />
+  <link href="assets/styles/stylesheet.css" rel="stylesheet" />
+  <!-- favicons -->
+  <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png" />
+  <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png" />
+  <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png" />
+  <link rel="manifest" href="/site.webmanifest" />
+</head>
 
-  <body>
-    <!-- Fixed Navbar -->
-    <nav class="navbar navbar-inverse navbar-fixed-top" role="navigation">
-      <div class="container-fluid">
-        <div class="navbar-header">
-          <div class="navbar-brand">Amber Joy</div>
-          <button
-            type="button"
-            class="navbar-toggle"
-            data-toggle="collapse"
-            data-target=".navbar-collapse"
-          >
-            <span class="sr-only">Toggle Contact Info</span>
-            <span class="icon-bar"></span>
-            <span class="icon-bar"></span>
-            <span class="icon-bar"></span>
-          </button>
-        </div>
-        <div class="navbar-collapse collapse">
-          <div class="contact">
-            <ul class="nav navbar-nav navbar-right">
-              <li>
-                <a href="https://github.com/the-amber-joy" target="_blank">
-                  <i class="icon"
-                    ><svg
-                      xmlns="http://www.w3.org/2000/svg"
-                      width="24"
-                      height="24"
-                      viewBox="0 0 24 24"
-                      fill="none"
-                      stroke="currentColor"
-                      stroke-width="2"
-                      stroke-linecap="round"
-                      stroke-linejoin="round"
-                      class="feather feather-github"
-                    >
-                      <path
-                        d="M9 19c-5 1.5-5-2.5-7-3m14 6v-3.87a3.37 3.37 0 0 0-.94-2.61c3.14-.35 6.44-1.54 6.44-7A5.44 5.44 0 0 0 20 4.77 5.07 5.07 0 0 0 19.91 1S18.73.65 16 2.48a13.38 13.38 0 0 0-7 0C6.27.65 5.09 1 5.09 1A5.07 5.07 0 0 0 5 4.77a5.44 5.44 0 0 0-1.5 3.78c0 5.42 3.3 6.61 6.44 7A3.37 3.37 0 0 0 9 18.13V22"
-                      ></path>
-                      <title>GitHub</title>
-                    </svg></i
-                  ><span class="link-label">&nbsp;Github</span></a
-                >
-              </li>
-              <li>
-                <a
-                  href="https://www.linkedin.com/in/theamberjoy"
-                  target="_blank"
-                >
-                  <i class="icon"
-                    ><svg
-                      xmlns="http://www.w3.org/2000/svg"
-                      width="24"
-                      height="24"
-                      viewBox="0 0 24 24"
-                      fill="none"
-                      stroke="currentColor"
-                      stroke-width="2"
-                      stroke-linecap="round"
-                      stroke-linejoin="round"
-                      class="feather feather-linkedin"
-                    >
-                      <path
-                        d="M16 8a6 6 0 0 1 6 6v7h-4v-7a2 2 0 0 0-2-2 2 2 0 0 0-2 2v7h-4v-7a6 6 0 0 1 6-6z"
-                      ></path>
-                      <rect x="2" y="9" width="4" height="12"></rect>
-                      <circle cx="4" cy="4" r="2"></circle>
-                      <title>LinkedIn</title>
-                    </svg></i
-                  ><span class="link-label">&nbsp;LinkedIn</span></a
-                >
-              </li>
-              <li>
-                <a href="mailto:contact@amberjoy.dev" target="_blank">
-                  <i class="icon"
-                    ><svg
-                      role="img"
-                      xmlns="http://www.w3.org/2000/svg"
-                      width="24"
-                      height="24"
-                      viewBox="0 0 24 24"
-                      fill="none"
-                      stroke="currentColor"
-                      stroke-width="2"
-                      stroke-linecap="round"
-                      stroke-linejoin="round"
-                      class="feather feather-mail"
-                    >
-                      <path
-                        d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z"
-                      ></path>
-                      <polyline points="22,6 12,13 2,6"></polyline>
-                      <title>Email</title>
-                    </svg></i
-                  ><span class="link-label">&nbsp;Email</span></a
-                >
-              </li>
-              <li>
-                <a
-                  href="https://docs.google.com/document/d/e/2PACX-1vRSbGbIX-4Dl1StiITfPGkM0IKZGYr21jSJ2ru-GDXsY7AI9QQW9VMfPQedzVVgo1SIXZBOwS5Vyzlz/pub"
-                  target="_blank"
-                >
-                  <i class="icon"
-                    ><svg
-                      xmlns="http://www.w3.org/2000/svg"
-                      width="24"
-                      height="24"
-                      viewBox="0 0 24 24"
-                      fill="none"
-                      stroke="currentColor"
-                      stroke-width="2"
-                      stroke-linecap="round"
-                      stroke-linejoin="round"
-                      class="feather feather-briefcase"
-                    >
-                      <rect
-                        x="2"
-                        y="7"
-                        width="20"
-                        height="14"
-                        rx="2"
-                        ry="2"
-                      ></rect>
-                      <path
-                        d="M16 21V5a2 2 0 0 0-2-2h-4a2 2 0 0 0-2 2v16"
-                      ></path>
-                      <title>Resume</title>
-                    </svg></i
-                  ><span class="link-label">&nbsp;Resume</span></a
-                >
-              </li>
-            </ul>
-          </div>
-        </div>
+<body>
+  <!-- Fixed Navbar -->
+  <nav class="navbar navbar-inverse navbar-fixed-top" role="navigation">
+    <div class="container-fluid">
+      <div class="navbar-header">
+        <div class="navbar-brand">Amber Joy</div>
+        <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
+          <span class="sr-only">Toggle Contact Info</span>
+          <span class="icon-bar"></span>
+          <span class="icon-bar"></span>
+          <span class="icon-bar"></span>
+        </button>
       </div>
-    </nav>
-
-    <main>
-      <div class="pic-div">
-        <img class="my-img" src="./assets/images/moptop.jpg" />
-      </div>
-      <div class="greeting">
-        <h1>Hi, I'm Amber!</h1>
-        <p>Please use the links above to contact me.</p>
-      </div>
-    </main>
-
-    <div class="navbar navbar-default navbar-fixed-bottom" role="navigation">
-      <div class="container-fluid">
-        <div class="navbar-text pull-left">
-          <p>
-            <a id="copyright" href="./assets/bookmarklet.html">&copy;</a>
-            <script>
-              document.write(new Date().getFullYear());
-            </script>
-          </p>
+      <div class="navbar-collapse collapse">
+        <div class="contact">
+          <ul class="nav navbar-nav navbar-right">
+            <li>
+              <a href="https://github.com/the-amber-joy" target="_blank">
+                <i class="icon"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"
+                    fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"
+                    class="feather feather-github">
+                    <path
+                      d="M9 19c-5 1.5-5-2.5-7-3m14 6v-3.87a3.37 3.37 0 0 0-.94-2.61c3.14-.35 6.44-1.54 6.44-7A5.44 5.44 0 0 0 20 4.77 5.07 5.07 0 0 0 19.91 1S18.73.65 16 2.48a13.38 13.38 0 0 0-7 0C6.27.65 5.09 1 5.09 1A5.07 5.07 0 0 0 5 4.77a5.44 5.44 0 0 0-1.5 3.78c0 5.42 3.3 6.61 6.44 7A3.37 3.37 0 0 0 9 18.13V22">
+                    </path>
+                    <title>GitHub</title>
+                  </svg></i><span class="link-label">&nbsp;Github</span></a>
+            </li>
+            <li>
+              <a href="https://www.linkedin.com/in/theamberjoy" target="_blank">
+                <i class="icon"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"
+                    fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"
+                    class="feather feather-linkedin">
+                    <path d="M16 8a6 6 0 0 1 6 6v7h-4v-7a2 2 0 0 0-2-2 2 2 0 0 0-2 2v7h-4v-7a6 6 0 0 1 6-6z"></path>
+                    <rect x="2" y="9" width="4" height="12"></rect>
+                    <circle cx="4" cy="4" r="2"></circle>
+                    <title>LinkedIn</title>
+                  </svg></i><span class="link-label">&nbsp;LinkedIn</span></a>
+            </li>
+            <li>
+              <a href="mailto:contact@amberjoy.dev" target="_blank">
+                <i class="icon"><svg role="img" xmlns="http://www.w3.org/2000/svg" width="24" height="24"
+                    viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"
+                    stroke-linejoin="round" class="feather feather-mail">
+                    <path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z"></path>
+                    <polyline points="22,6 12,13 2,6"></polyline>
+                    <title>Email</title>
+                  </svg></i><span class="link-label">&nbsp;Email</span></a>
+            </li>
+            <li>
+              <a href="https://docs.google.com/document/d/e/2PACX-1vRSbGbIX-4Dl1StiITfPGkM0IKZGYr21jSJ2ru-GDXsY7AI9QQW9VMfPQedzVVgo1SIXZBOwS5Vyzlz/pub"
+                target="_blank">
+                <i class="icon"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"
+                    fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"
+                    class="feather feather-briefcase">
+                    <rect x="2" y="7" width="20" height="14" rx="2" ry="2"></rect>
+                    <path d="M16 21V5a2 2 0 0 0-2-2h-4a2 2 0 0 0-2 2v16"></path>
+                    <title>Resume</title>
+                  </svg></i><span class="link-label">&nbsp;Resume</span></a>
+            </li>
+          </ul>
         </div>
       </div>
     </div>
+  </nav>
 
-<script>
-  const str = `%c                  _                   _
+  <main>
+    <div class="pic-div">
+      <img class="my-img" src="./assets/images/moptop.jpg" />
+    </div>
+    <div class="greeting">
+      <h1>Hi, I'm Amber!</h1>
+      <p>Please use the links above to contact me.</p>
+    </div>
+  </main>
+
+  <div class="navbar navbar-default navbar-fixed-bottom" role="navigation">
+    <div class="container-fluid">
+      <div class="navbar-text pull-left">
+        <p>
+          <a id="copyright" href="./assets/bookmarklet.html">&copy;</a>
+          <script>
+            document.write(new Date().getFullYear());
+          </script>
+        </p>
+      </div>
+    </div>
+  </div>
+
+  <script>
+    const str = `%c                  _                   _
    __ _ _ __ ___ | |__   ___ _ __    (_) ___  _   _
   / _\` | '_ \` _ \\| '_ \\ / _ \\ '__|   | |/ _ \\| | | |
  | (_| | | | | | | |_) |  __/ |      | | (_) | |_| |
   \\__,_|_| |_| |_|_.__/ \\___|_|     _/ |\\___/ \\__, |
                                    |__/       |___/`
-  console.log(str, "color: fuchsia; font-family:monospace");
-</script>
-    <a href="https://mstdn.social/@amberjoy" rel="me"></a>
-  </body>
+    console.log(str, "color: fuchsia; font-family:monospace");
+  </script>
+  <a href="https://mstdn.social/@amberjoy" rel="me"></a>
+</body>
+
 </html>

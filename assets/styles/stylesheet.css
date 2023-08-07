@@ -103,7 +103,6 @@ img {
   display: inline;
 }
 
-
 /* footer */
 #copyright {
   color: #777 !important;
@@ -121,7 +120,7 @@ img {
 }
 
 .links > li {
-  display: block;  
+  display: block;
 }
 .icon {
   font-size: xx-large;
@@ -130,16 +129,14 @@ img {
   -moz-osx-font-smoothing: grayscale;
 }
 .post {
-
-}
-.st0 {
-  fill-rule: evenodd;
-  clip-rule: evenodd;
-  fill: #688FFC;
-}
-
-.st1 {
-  fill: #FFFFFF;
+  .st0 {
+    fill-rule: evenodd;
+    clip-rule: evenodd;
+    fill: #688ffc;
+  }
+  .st1 {
+    fill: #ffffff;
+  }
 }
 .mastodon {
   fill: #6364ff;
@@ -154,7 +151,7 @@ img {
   fill: #181717;
 }
 .devdotto {
-  fill: #0A0A0A;
+  fill: #0a0a0a;
 }
 .linkedin {
   fill: #0a66c2;
