@@ -69,6 +69,10 @@ img {
 }
 
 /*NAVBAR*/
+.container-fluid {
+max-width: 1280px;
+}
+
 .navbar-inverse .navbar-brand {
   font-variant: small-caps;
   font-weight: bold;
