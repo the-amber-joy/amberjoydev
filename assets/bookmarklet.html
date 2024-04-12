@@ -1,9 +1,9 @@
-<button><a id="bookmarklet">Remove Modals</a></button>
+<!-- <button><a id="bookmarklet">Remove Modals</a></button>
 <br>
-Drag this link to your bookmark bar
+Drag this link to your bookmark bar -->
 
 
-<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+<!-- <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
 <script type="text/javascript">
 $(document).ready(function() {
     const bookmarkletUrl = $.get(
@@ -11,4 +11,19 @@ $(document).ready(function() {
             $("#bookmarklet").attr("href", result);
         });
 });
+</script> -->
+
+<button><a id="bookmarklet">Editable Page</a></button>
+<br>
+Drag this link to your bookmark bar
+
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+<script type="text/javascript">
+$(document).ready(function() {
+    const bookmarkletUrl = $.get(
+        'https://gist.githubusercontent.com/the-amber-joy/6e65891b9ce1da1c71e1014c39169445/raw/8a4afd49740ea5ec1630ea463260e9e0a7010941/editable.js', (result) => {
+            $("#bookmarklet").attr("href", result);
+        });
+});
 </script>
+
