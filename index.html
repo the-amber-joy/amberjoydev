@@ -1,135 +1,335 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Amber Joy</title>
+    <!--scripts-->
+    <script src="assets/vendors/jquery/jquery.min.js"></script>
+    <script src="assets/vendors/bootstrap/dist/js/bootstrap.min.js"></script>
+    <!--styles-->
+    <link
+      href="assets/vendors/bootstrap/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+    />
+    <link href="assets/styles/stylesheet.css" rel="stylesheet" />
+    <!-- favicons -->
+    <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png" />
+    <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png" />
+    <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png" />
+    <link rel="manifest" href="/site.webmanifest" />
+  </head>
 
-<head>
-  <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>Amber Joy</title>
-  <!--scripts-->
-  <script src="assets/vendors/jquery/jquery.min.js"></script>
-  <script src="assets/vendors/bootstrap/dist/js/bootstrap.min.js"></script>
-  <!--styles-->
-  <link href="assets/vendors/bootstrap/dist/css/bootstrap.min.css" rel="stylesheet" />
-  <link href="assets/styles/stylesheet.css" rel="stylesheet" />
-  <!-- favicons -->
-  <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png" />
-  <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png" />
-  <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png" />
-  <link rel="manifest" href="/site.webmanifest" />
-</head>
-
-<body>
-  <!-- Fixed Navbar -->
-  <nav class="navbar navbar-inverse navbar-fixed-top" role="navigation">
-    <div class="container-fluid">
-      <div class="navbar-header">
-        <div class="navbar-brand">Amber Joy</div>
-        <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
-          <span class="sr-only">Toggle Contact Info</span>
-          <span class="icon-bar"></span>
-          <span class="icon-bar"></span>
-          <span class="icon-bar"></span>
-        </button>
+  <body>
+    <!-- Fixed Navbar -->
+    <nav class="navbar navbar-inverse navbar-fixed-top" role="navigation">
+      <div class="container-fluid">
+        <div class="navbar-header">
+          <div class="navbar-brand">Amber Joy</div>
+          <button
+            type="button"
+            class="navbar-toggle"
+            data-toggle="collapse"
+            data-target=".navbar-collapse"
+          >
+            <span class="sr-only">Toggle Contact Info</span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+          </button>
+        </div>
+        <div class="navbar-collapse collapse">
+          <div class="contact">
+            <ul class="nav navbar-nav navbar-right">
+              <li>
+                <a href="https://portfolio.amberjoy.dev" target="_self"
+                  ><i class="icon">
+                    <svg
+                      xmlns="http://www.w3.org/2000/svg"
+                      width="24"
+                      height="24"
+                      viewBox="0 0 24 24"
+                      fill="none"
+                      stroke="currentColor"
+                      stroke-width="2"
+                      stroke-linecap="round"
+                      stroke-linejoin="round"
+                      class="feather feather-briefcase"
+                    >
+                      <rect
+                        x="2"
+                        y="7"
+                        width="20"
+                        height="14"
+                        rx="2"
+                        ry="2"
+                      ></rect>
+                      <path
+                        d="M16 21V5a2 2 0 0 0-2-2h-4a2 2 0 0 0-2 2v16"
+                      ></path>
+                      <title>Portfolio</title>
+                    </svg> </i
+                  ><span class="link-label">&nbsp;Portfolio</span></a
+                >
+              </li>
+              <li>
+                <a
+                  href="https://docs.google.com/document/d/e/2PACX-1vRSbGbIX-4Dl1StiITfPGkM0IKZGYr21jSJ2ru-GDXsY7AI9QQW9VMfPQedzVVgo1SIXZBOwS5Vyzlz/pub"
+                  target="_blank"
+                >
+                  <i class="icon"
+                    ><svg
+                      xmlns="http://www.w3.org/2000/svg"
+                      width="24"
+                      height="24"
+                      viewBox="0 0 24 24"
+                      fill="none"
+                      stroke="currentColor"
+                      stroke-width="2"
+                      stroke-linecap="round"
+                      stroke-linejoin="round"
+                      class="feather feather-file-text"
+                    >
+                      <path
+                        d="M14 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V8z"
+                      ></path>
+                      <polyline points="14 2 14 8 20 8"></polyline>
+                      <line x1="16" y1="13" x2="8" y2="13"></line>
+                      <line x1="16" y1="17" x2="8" y2="17"></line>
+                      <polyline points="10 9 9 9 8 9"></polyline>
+                      <title>Resume</title>
+                    </svg></i
+                  ><span class="link-label">&nbsp;Resume</span></a
+                >
+              </li>
+              <li>
+                <a href="https://github.com/the-amber-joy" target="_blank">
+                  <i class="icon"
+                    ><svg
+                      xmlns="http://www.w3.org/2000/svg"
+                      width="24"
+                      height="24"
+                      viewBox="0 0 24 24"
+                      fill="none"
+                      stroke="currentColor"
+                      stroke-width="2"
+                      stroke-linecap="round"
+                      stroke-linejoin="round"
+                      class="feather feather-github"
+                    >
+                      <path
+                        d="M9 19c-5 1.5-5-2.5-7-3m14 6v-3.87a3.37 3.37 0 0 0-.94-2.61c3.14-.35 6.44-1.54 6.44-7A5.44 5.44 0 0 0 20 4.77 5.07 5.07 0 0 0 19.91 1S18.73.65 16 2.48a13.38 13.38 0 0 0-7 0C6.27.65 5.09 1 5.09 1A5.07 5.07 0 0 0 5 4.77a5.44 5.44 0 0 0-1.5 3.78c0 5.42 3.3 6.61 6.44 7A3.37 3.37 0 0 0 9 18.13V22"
+                      ></path>
+                      <title>GitHub</title>
+                    </svg></i
+                  ><span class="link-label">&nbsp;Github</span></a
+                >
+              </li>
+              <li>
+                <a
+                  href="https://www.linkedin.com/in/theamberjoy"
+                  target="_blank"
+                >
+                  <i class="icon"
+                    ><svg
+                      xmlns="http://www.w3.org/2000/svg"
+                      width="24"
+                      height="24"
+                      viewBox="0 0 24 24"
+                      fill="none"
+                      stroke="currentColor"
+                      stroke-width="2"
+                      stroke-linecap="round"
+                      stroke-linejoin="round"
+                      class="feather feather-linkedin"
+                    >
+                      <path
+                        d="M16 8a6 6 0 0 1 6 6v7h-4v-7a2 2 0 0 0-2-2 2 2 0 0 0-2 2v7h-4v-7a6 6 0 0 1 6-6z"
+                      ></path>
+                      <rect x="2" y="9" width="4" height="12"></rect>
+                      <circle cx="4" cy="4" r="2"></circle>
+                      <title>LinkedIn</title>
+                    </svg></i
+                  ><span class="link-label">&nbsp;LinkedIn</span></a
+                >
+              </li>
+              <li>
+                <a href="mailto:contact@amberjoy.dev" target="_blank">
+                  <i class="icon"
+                    ><svg
+                      role="img"
+                      xmlns="http://www.w3.org/2000/svg"
+                      width="24"
+                      height="24"
+                      viewBox="0 0 24 24"
+                      fill="none"
+                      stroke="currentColor"
+                      stroke-width="2"
+                      stroke-linecap="round"
+                      stroke-linejoin="round"
+                      class="feather feather-mail"
+                    >
+                      <path
+                        d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z"
+                      ></path>
+                      <polyline points="22,6 12,13 2,6"></polyline>
+                      <title>Email</title>
+                    </svg></i
+                  ><span class="link-label">&nbsp;Email</span></a
+                >
+              </li>
+            </ul>
+          </div>
+        </div>
       </div>
-      <div class="navbar-collapse collapse">
-        <div class="contact">
-          <ul class="nav navbar-nav navbar-right">
+    </nav>
+
+    <main>
+      <div class="pic-div">
+        <img class="my-img" src="./assets/images/moptop.jpg" />
+      </div>
+      <div class="greeting">
+        <h1>Hi, I'm Amber!</h1>
+        <p>Please use the links above to contact me.</p>
+      </div>
+    </main>
+
+    <div class="navbar navbar-default navbar-fixed-bottom" role="navigation">
+      <div class="container-fluid">
+        <div class="navbar-text pull-right">
+          <ul class="links">
             <li>
-              <a href="https://portfolio.amberjoy.dev" target="_self"><i class="icon">
-                  <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none"
-                    stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"
-                    class="feather feather-briefcase">
-                    <rect x="2" y="7" width="20" height="14" rx="2" ry="2"></rect>
-                    <path d="M16 21V5a2 2 0 0 0-2-2h-4a2 2 0 0 0-2 2v16"></path>
-                    <title>Portfolio</title>
-                  </svg>
-                </i><span class="link-label">&nbsp;Portfolio</span></a>
-            </li>
-            <li>
-              <a href="https://docs.google.com/document/d/e/2PACX-1vRSbGbIX-4Dl1StiITfPGkM0IKZGYr21jSJ2ru-GDXsY7AI9QQW9VMfPQedzVVgo1SIXZBOwS5Vyzlz/pub"
-                target="_blank">
-                <i class="icon"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"
-                    fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"
-                    class="feather feather-file-text">
-                    <path d="M14 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V8z"></path>
-                    <polyline points="14 2 14 8 20 8"></polyline>
-                    <line x1="16" y1="13" x2="8" y2="13"></line>
-                    <line x1="16" y1="17" x2="8" y2="17"></line>
-                    <polyline points="10 9 9 9 8 9"></polyline>
-                    <title>Resume</title>
-                  </svg></i><span class="link-label">&nbsp;Resume</span></a>
-            </li>
-            <li>
-              <a href="https://github.com/the-amber-joy" target="_blank">
-                <i class="icon"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"
-                    fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"
-                    class="feather feather-github">
+              <a href="https://mstdn.social/@amberjoy" target="_blank" rel="me">
+                <i class="icon mastodon">
+                  <svg
+                    role="img"
+                    viewBox="0 0 24 24"
+                    xmlns="http://www.w3.org/2000/svg"
+                  >
+                    <title>Mastodon</title>
                     <path
-                      d="M9 19c-5 1.5-5-2.5-7-3m14 6v-3.87a3.37 3.37 0 0 0-.94-2.61c3.14-.35 6.44-1.54 6.44-7A5.44 5.44 0 0 0 20 4.77 5.07 5.07 0 0 0 19.91 1S18.73.65 16 2.48a13.38 13.38 0 0 0-7 0C6.27.65 5.09 1 5.09 1A5.07 5.07 0 0 0 5 4.77a5.44 5.44 0 0 0-1.5 3.78c0 5.42 3.3 6.61 6.44 7A3.37 3.37 0 0 0 9 18.13V22">
-                    </path>
+                      d="M23.268 5.313c-.35-2.578-2.617-4.61-5.304-5.004C17.51.242 15.792 0 11.813 0h-.03c-3.98 0-4.835.242-5.288.309C3.882.692 1.496 2.518.917 5.127.64 6.412.61 7.837.661 9.143c.074 1.874.088 3.745.26 5.611.118 1.24.325 2.47.62 3.68.55 2.237 2.777 4.098 4.96 4.857 2.336.792 4.849.923 7.256.38.265-.061.527-.132.786-.213.585-.184 1.27-.39 1.774-.753a.057.057 0 0 0 .023-.043v-1.809a.052.052 0 0 0-.02-.041.053.053 0 0 0-.046-.01 20.282 20.282 0 0 1-4.709.545c-2.73 0-3.463-1.284-3.674-1.818a5.593 5.593 0 0 1-.319-1.433.053.053 0 0 1 .066-.054c1.517.363 3.072.546 4.632.546.376 0 .75 0 1.125-.01 1.57-.044 3.224-.124 4.768-.422.038-.008.077-.015.11-.024 2.435-.464 4.753-1.92 4.989-5.604.008-.145.03-1.52.03-1.67.002-.512.167-3.63-.024-5.545zm-3.748 9.195h-2.561V8.29c0-1.309-.55-1.976-1.67-1.976-1.23 0-1.846.79-1.846 2.35v3.403h-2.546V8.663c0-1.56-.617-2.35-1.848-2.35-1.112 0-1.668.668-1.67 1.977v6.218H4.822V8.102c0-1.31.337-2.35 1.011-3.12.696-.77 1.608-1.164 2.74-1.164 1.311 0 2.302.5 2.962 1.498l.638 1.06.638-1.06c.66-.999 1.65-1.498 2.96-1.498 1.13 0 2.043.395 2.74 1.164.675.77 1.012 1.81 1.012 3.12z"
+                    />
+                  </svg>
+                </i>
+              </a>
+            </li>
+            <li>
+              <a
+                href="https://www.ravelry.com/people/the-amber-joy"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                <i class="icon ravelry">
+                  <svg
+                    role="img"
+                    viewBox="0 0 24 24"
+                    xmlns="http://www.w3.org/2000/svg"
+                  >
+                    <title>Ravelry</title>
+                    <path
+                      d="M23.9718 10.9238c-.0597-.51098-.084-1.02918-.1851-1.53174-.1227-.61046-.2793-1.21823-.4755-1.80886-.34288-1.03247-.84358-1.9895-1.52577-2.84163-.2955-.3691-.59489-.73971-.92998-1.07185-.699-.69252-1.47808-1.28586-2.32827-1.78481-.88588-.52-1.81527-.9414-2.80316-1.21913-.54449-.153-1.10068-.26842-1.65627-.37632-.3351-.06493-.67949-.08236-1.01938-.12264-.0156-.0018-.0297-.01773-.0444-.02735-.5319.0003-1.06379.0003-1.59568.0003-.1191.01924-.2376.04569-.3576.0568-.57748.05381-1.13818.18667-1.69287.35078-.68279.20169-1.33498.47912-1.96527.80825-.66029.34506-1.28548.74813-1.88187 1.19388-.3048.22783-.6063.46258-.88829.71747-.50279.45507-1.00678.91104-1.47897 1.39707-.6378.65676-1.18769 1.38595-1.66288 2.17196C1.05934 7.533.71345 8.2628.46776 9.03978c-.1773.56118-.3054 1.13197-.3801 1.7178-.0744.58431-.1062 1.17043-.0768 1.75565.0336.66577.0951 1.32944.2187 1.9886.1713.91345.4392 1.79083.82679 2.63394.3207.69703.72149 1.34267 1.18618 1.95344.3897.51187.83099.97476 1.30258 1.40428.63239.5759 1.32508 1.07546 2.06487 1.5116.87719.51728 1.79787.92937 2.76266 1.24918.65639.21762 1.32808.37271 2.00847.48603.3.0499.60659.06192.90988.09258.0204.0021.0393.01834.0588.02765h1.59568c.1239-.01924.2472-.04629.372-.05651.80728-.06583 1.58667-.2636 2.34686-.52961.85018-.29787 1.66557-.6784 2.41916-1.17705.4818-.31861.95849-.64624 1.42018-.9931.2859-.21491.54299-.4695.80579-.71447.1959-.18275.38369-.37452.56879-.56839.59639-.6261 1.11118-1.31471 1.55307-2.05773.4716-.79292.8577-1.62611 1.10219-2.51671.1413-.51459.2445-1.04.3468-1.5642.051-.2609.0618-.5299.0924-.79502.0018-.01563.0177-.02976.0273-.04448v-1.8314c-.0096-.02946-.0246-.058-.0282-.08807zm-7.96218-.05682s-.81899-.14728-1.40698-.14728c-1.34398 0-1.65897.7364-1.65897 1.8305v4.62885H9.31072V7.75303h3.63295v1.57802c.441-1.32554 1.32298-1.78842 3.06595-1.78842z"
+                    />
+                  </svg>
+                </i>
+              </a>
+            </li>
+            <li>
+              <a
+                href="https://github.com/the-amber-joy"
+                target="_blank"
+                rel="me"
+              >
+                <i class="icon github">
+                  <svg
+                    role="img"
+                    viewBox="0 0 24 24"
+                    xmlns="http://www.w3.org/2000/svg"
+                  >
                     <title>GitHub</title>
-                  </svg></i><span class="link-label">&nbsp;Github</span></a>
+                    <path
+                      d="M12 .297c-6.63 0-12 5.373-12 12 0 5.303 3.438 9.8 8.205 11.385.6.113.82-.258.82-.577 0-.285-.01-1.04-.015-2.04-3.338.724-4.042-1.61-4.042-1.61C4.422 18.07 3.633 17.7 3.633 17.7c-1.087-.744.084-.729.084-.729 1.205.084 1.838 1.236 1.838 1.236 1.07 1.835 2.809 1.305 3.495.998.108-.776.417-1.305.76-1.605-2.665-.3-5.466-1.332-5.466-5.93 0-1.31.465-2.38 1.235-3.22-.135-.303-.54-1.523.105-3.176 0 0 1.005-.322 3.3 1.23.96-.267 1.98-.399 3-.405 1.02.006 2.04.138 3 .405 2.28-1.552 3.285-1.23 3.285-1.23.645 1.653.24 2.873.12 3.176.765.84 1.23 1.91 1.23 3.22 0 4.61-2.805 5.625-5.475 5.92.42.36.81 1.096.81 2.22 0 1.606-.015 2.896-.015 3.286 0 .315.21.69.825.57C20.565 22.092 24 17.592 24 12.297c0-6.627-5.373-12-12-12"
+                    />
+                  </svg>
+                </i>
+              </a>
             </li>
             <li>
-              <a href="https://www.linkedin.com/in/theamberjoy" target="_blank">
-                <i class="icon"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"
-                    fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"
-                    class="feather feather-linkedin">
-                    <path d="M16 8a6 6 0 0 1 6 6v7h-4v-7a2 2 0 0 0-2-2 2 2 0 0 0-2 2v7h-4v-7a6 6 0 0 1 6-6z"></path>
-                    <rect x="2" y="9" width="4" height="12"></rect>
-                    <circle cx="4" cy="4" r="2"></circle>
+              <a href="https://dev.to/the-amber-joy" target="_blank" rel="me">
+                <i class="icon devdotto">
+                  <svg
+                    role="img"
+                    viewBox="0 0 24 24"
+                    xmlns="http://www.w3.org/2000/svg"
+                  >
+                    <title>dev.to</title>
+                    <path
+                      d="M7.42 10.05c-.18-.16-.46-.23-.84-.23H6l.02 2.44.04 2.45.56-.02c.41 0 .63-.07.83-.26.24-.24.26-.36.26-2.2 0-1.91-.02-1.96-.29-2.18zM0 4.94v14.12h24V4.94H0zM8.56 15.3c-.44.58-1.06.77-2.53.77H4.71V8.53h1.4c1.67 0 2.16.18 2.6.9.27.43.29.6.32 2.57.05 2.23-.02 2.73-.47 3.3zm5.09-5.47h-2.47v1.77h1.52v1.28l-.72.04-.75.03v1.77l1.22.03 1.2.04v1.28h-1.6c-1.53 0-1.6-.01-1.87-.3l-.3-.28v-3.16c0-3.02.01-3.18.25-3.48.23-.31.25-.31 1.88-.31h1.64v1.3zm4.68 5.45c-.17.43-.64.79-1 .79-.18 0-.45-.15-.67-.39-.32-.32-.45-.63-.82-2.08l-.9-3.39-.45-1.67h.76c.4 0 .75.02.75.05 0 .06 1.16 4.54 1.26 4.83.04.15.32-.7.73-2.3l.66-2.52.74-.04c.4-.02.73 0 .73.04 0 .14-1.67 6.38-1.8 6.68z"
+                    />
+                  </svg>
+                </i>
+              </a>
+            </li>
+            <li>
+              <a
+                href="https://www.linkedin.com/in/theamberjoy"
+                target="_blank"
+                rel="me"
+              >
+                <i class="icon linkedin">
+                  <svg
+                    role="img"
+                    viewBox="0 0 24 24"
+                    xmlns="http://www.w3.org/2000/svg"
+                  >
                     <title>LinkedIn</title>
-                  </svg></i><span class="link-label">&nbsp;LinkedIn</span></a>
+                    <path
+                      d="M20.447 20.452h-3.554v-5.569c0-1.328-.027-3.037-1.852-3.037-1.853 0-2.136 1.445-2.136 2.939v5.667H9.351V9h3.414v1.561h.046c.477-.9 1.637-1.85 3.37-1.85 3.601 0 4.267 2.37 4.267 5.455v6.286zM5.337 7.433c-1.144 0-2.063-.926-2.063-2.065 0-1.138.92-2.063 2.063-2.063 1.14 0 2.064.925 2.064 2.063 0 1.139-.925 2.065-2.064 2.065zm1.782 13.019H3.555V9h3.564v11.452zM22.225 0H1.771C.792 0 0 .774 0 1.729v20.542C0 23.227.792 24 1.771 24h20.451C23.2 24 24 23.227 24 22.271V1.729C24 .774 23.2 0 22.222 0h.003z"
+                    />
+                  </svg>
+                </i>
+              </a>
             </li>
             <li>
-              <a href="mailto:contact@amberjoy.dev" target="_blank">
-                <i class="icon"><svg role="img" xmlns="http://www.w3.org/2000/svg" width="24" height="24"
-                    viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"
-                    stroke-linejoin="round" class="feather feather-mail">
-                    <path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z"></path>
-                    <polyline points="22,6 12,13 2,6"></polyline>
-                    <title>Email</title>
-                  </svg></i><span class="link-label">&nbsp;Email</span></a>
+              <a
+                href="https://bsky.app/profile/amberjoy.dev"
+                target="_blank"
+                rel="me"
+              >
+                <i class="icon bluesky">
+                  <svg
+                    role="img"
+                    viewBox="0 0 24 24"
+                    xmlns="http://www.w3.org/2000/svg"
+                  >
+                    <title>Bluesky</title>
+                    <path
+                      d="M12 10.8c-1.087-2.114-4.046-6.053-6.798-7.995C2.566.944 1.561 1.266.902 1.565.139 1.908 0 3.08 0 3.768c0 .69.378 5.65.624 6.479.815 2.736 3.713 3.66 6.383 3.364.136-.02.275-.039.415-.056-.138.022-.276.04-.415.056-3.912.58-7.387 2.005-2.83 7.078 5.013 5.19 6.87-1.113 7.823-4.308.953 3.195 2.05 9.271 7.733 4.308 4.267-4.308 1.172-6.498-2.74-7.078a8.741 8.741 0 0 1-.415-.056c.14.017.279.036.415.056 2.67.297 5.568-.628 6.383-3.364.246-.828.624-5.79.624-6.478 0-.69-.139-1.861-.902-2.206-.659-.298-1.664-.62-4.3 1.24C16.046 4.748 13.087 8.687 12 10.8Z"
+                    />
+                  </svg>
+                </i>
+              </a>
+            </li>
+            <li>
+              <a id="copyright" href="./assets/bookmarklet.html">&copy;</a>
+              <script>
+                document.write(new Date().getFullYear());
+              </script>
             </li>
           </ul>
         </div>
       </div>
     </div>
-  </nav>
 
-  <main>
-    <div class="pic-div">
-      <img class="my-img" src="./assets/images/moptop.jpg" />
-    </div>
-    <div class="greeting">
-      <h1>Hi, I'm Amber!</h1>
-      <p>Please use the links above to contact me.</p>
-    </div>
-  </main>
-
-  <div class="navbar navbar-default navbar-fixed-bottom" role="navigation">
-    <div class="container-fluid">
-      <div class="navbar-text pull-left">
-        <p>
-          <a id="copyright" href="./assets/bookmarklet.html">&copy;</a>
-          <script>
-            document.write(new Date().getFullYear());
-          </script>
-        </p>
-      </div>
-    </div>
-  </div>
-
-  <script>
-    const str = `%c                  _                   _
+    <script>
+      const str = `%c                  _                   _
    __ _ _ __ ___ | |__   ___ _ __    (_) ___  _   _
   / _\` | '_ \` _ \\| '_ \\ / _ \\ '__|   | |/ _ \\| | | |
  | (_| | | | | | | |_) |  __/ |      | | (_) | |_| |
   \\__,_|_| |_| |_|_.__/ \\___|_|     _/ |\\___/ \\__, |
-                                   |__/       |___/`
-    console.log(str, "color: fuchsia; font-family:monospace");
-  </script>
-  <a href="https://mstdn.social/@amberjoy" rel="me"></a>
-</body>
-
+                                   |__/       |___/`;
+      console.log(str, "color: fuchsia; font-family:monospace");
+    </script>
+    <a href="https://mstdn.social/@amberjoy" rel="me"></a>
+  </body>
 </html>
