@@ -64,7 +64,6 @@ img {
 /* Social Media Links */
 .icon {
   display: inline-block;
-  width: 1.28571429em;
   fill: #b4c1c1;
   font-size: large;
   -webkit-font-smoothing: antialiased;
@@ -132,11 +131,24 @@ img {
   display: inline;
   margin: 0 5px;
 }
+.links a {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+}
+.links a:focus {
+  outline: 2px solid #b4c1c1;
+  outline-offset: 4px;
+  border-radius: 4px;
+}
 .icon {
-  font-size: x-large;
+  font-size: large;
   width: 1.28571429em;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+}
+.icon:hover {
+  transform: scale(1.2);
 }
 .post {
   .st0 {
