@@ -20,6 +20,9 @@ a {
   list-style: none;
   text-decoration: none;
 }
+a:hover, a:focus {
+  text-decoration: none;
+} 
 
 body {
   padding-top: 70px;
